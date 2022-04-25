@@ -216,7 +216,6 @@ For Manjaro (Arch)
 ## Util
 
 
-
 ## Util / Grub
 
 ### grubrc-profile
