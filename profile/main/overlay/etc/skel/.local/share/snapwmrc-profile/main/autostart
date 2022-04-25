@@ -1,0 +1,155 @@
+#!/usr/bin/env bash
+
+#echo '## User Autostart'
+
+
+##
+## ## Xresources
+##
+
+mod_xresources () {
+
+	#xrdb merge ~/.config/snapwm/style/xresources/forest/.Xresources &
+
+	if [ -f "$HOME/.config/snapwm/style/xresources/forest/.Xresources" ]; then
+		xrdb merge "$HOME/.config/snapwm/style/xresources/forest/.Xresources" &
+	fi
+
+}
+
+##
+## ## cursor
+##
+
+mod_cursor () {
+
+	xsetroot -cursor_name left_ptr
+
+}
+
+##
+## ## Backgruond Color
+##
+## * https://en.wikipedia.org/wiki/List_of_colors_(compact)
+##
+## > prevent no wallpaper
+##
+
+mod_background_color () {
+
+	#xsetroot -solid "#c0c0c0"
+	#xsetroot -solid "#808080"
+	#xsetroot -solid "#696969"
+	#xsetroot -solid "#625B57"
+	xsetroot -solid "#404040"
+	#xsetroot -solid "#8FBC8F"
+	#xsetroot -solid "#2F4F4F"
+	#xsetroot -solid "#F5F5DC"
+	#xsetroot -solid "#BDB76B"
+	#xsetroot -solid "#D2B48C"
+
+}
+
+
+##
+## ## Wallpaper
+##
+
+mod_wallpaper () {
+	#feh --bg-tile ~/Pictures/wall/gruv.png &
+
+	local default_wallpaper='/usr/share/backgrounds/forest.jpg'
+
+	if [ -f "$HOME/.fehbg" ]; then
+		if [ -x "$HOME/.fehbg" ]; then
+			"$HOME/.fehbg" &
+		else
+			if [ -f "$default_wallpaper" ]; then
+				feh --bg-fill "$default_wallpaper" &
+			fi
+		fi
+	else
+		if [ -f "$default_wallpaper" ]; then
+			feh --bg-fill "$default_wallpaper" &
+		fi
+	fi
+
+}
+
+
+##
+## ## Compositor
+##
+
+mod_compositor () {
+
+	if [ -f "$HOME/.config/snapwm/style/picom/picom.conf" ]; then
+		picom --config "$HOME/.config/snapwm/style/picom/picom.conf" &
+	else
+		picom &
+	fi
+
+}
+
+
+##
+## ## Update bar info
+##
+
+mod_bar () {
+
+	snapwm-bar-clock.sh &         # ~/.config/snapwm/bar/snapwm-bar-clock.sh
+
+	return 0
+}
+
+
+
+##
+## ## XDG Autostart
+##
+
+mod_xdg_autostart () {
+
+	local xdg_autostart='/usr/lib/openbox/openbox-xdg-autostart'
+
+	if [ -f "$xdg_autostart" ]; then
+		if [ -x "$xdg_autostart" ]; then
+			"$xdg_autostart" &
+		fi
+	fi
+
+}
+
+
+##
+## ## Extra Autostart
+##
+
+mod_extra_autostart () {
+
+	## add your autostart stuffs here
+
+	#fcitx &
+	#mate-volume-control-status-icon &
+
+	return 0
+}
+
+
+##
+## ## Main
+##
+
+__main__ () {
+	mod_xresources
+	mod_cursor
+	mod_background_color
+	mod_wallpaper
+	mod_compositor
+	mod_bar
+	mod_xdg_autostart
+	mod_extra_autostart
+}
+
+__main__

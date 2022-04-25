@@ -1,0 +1,135 @@
+#!/usr/bin/env bash
+
+
+##
+## * $ man 3 dirname
+## * $ man 1 dirname
+## * $ man 3 basename
+## * $ man 1 basenaem
+## * https://en.wikipedia.org/wiki/Dirname
+## * https://en.wikipedia.org/wiki/Basename
+## * https://zh.wikipedia.org/zh-tw/Dirname
+## * https://zh.wikipedia.org/zh-tw/Basename
+##
+
+
+util_error_echo () {
+	echo "$@" 1>&2
+}
+
+
+##
+## ## Reference
+## * https://superuser.com/questions/488232/how-to-set-kde-desktop-wallpaper-from-command-line
+## * https://www.reddit.com/r/kde/comments/65pmhj/change_wallpaper_from_terminal/
+##
+
+sys_kde_wallpaper_set_javascript () {
+
+cat << EOF
+	var allDesktops = desktops();
+	print (allDesktops);
+	for (i=0; i<allDesktops.length; i++) {
+		d = allDesktops[i];
+		d.wallpaperPlugin = 'org.kde.image';
+		d.currentConfigGroup = Array(
+			'Wallpaper',
+			'org.kde.image',
+			'General'
+		);
+		d.writeConfig('Image', '$1')
+	}
+EOF
+
+}
+
+
+sys_kde_wallpaper_set_by_qdbus () {
+	local javascript="$(sys_kde_wallpaper_set_javascript "$1")"
+	qdbus org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript "$javascript"
+}
+
+sys_kde_wallpaper_set_by_gdbus () {
+	local javascript="$(sys_kde_wallpaper_set_javascript "$1")"
+	gdbus call --session --dest org.kde.plasmashell --object-path /PlasmaShell --method org.kde.PlasmaShell.evaluateScript "$javascript"
+}
+
+sys_kde_wallpaper_set_by_dbus_send () {
+	local javascript="$(sys_kde_wallpaper_set_javascript "$1")"
+	dbus-send --session --dest=org.kde.plasmashell --type=method_call /PlasmaShell org.kde.PlasmaShell.evaluateScript "string: $javascript"
+}
+
+sys_kde_wallpaper_set () {
+	#sys_kde_wallpaper_set_by_dbus_send "$1"
+	#sys_kde_wallpaper_set_by_gdbus "$1"
+	sys_kde_wallpaper_set_by_qdbus "$1"
+}
+
+opset_wallpaper_kde_main () {
+
+	local agent='sys_kde_wallpaper_set'
+	local target_path="$1"
+	local file_path
+	local file_name
+	local dir_path
+
+	util_error_echo
+	util_error_echo "## Agent:"
+	util_error_echo
+	util_error_echo "$agent"
+	util_error_echo
+
+	if [ "none$target_path" = 'none' ]; then
+		target_path="$(pwd)"
+	fi
+
+	if ! [ -e "$target_path" ]; then
+
+		util_error_echo
+		util_error_echo "## File Not Exist:"
+		util_error_echo
+		util_error_echo "$target_path"
+		util_error_echo
+
+		return 1
+	fi
+
+	file_path="$(realpath -s "$target_path")"
+
+	if [ -d "$file_path" ]; then
+
+		util_error_echo
+		util_error_echo "## Is Dir:"
+		util_error_echo
+		util_error_echo "$target_path"
+		util_error_echo
+
+		return 1
+	fi
+
+
+	file_name="$(basename "$file_path")"
+	dir_path="$(dirname "$file_path")"
+
+
+	util_error_echo
+	util_error_echo "## Path:"
+	util_error_echo
+	util_error_echo "target_path=$target_path"
+	util_error_echo "file_path=$file_path"
+	util_error_echo "file_name=$file_name"
+	util_error_echo "dir_path=$dir_path"
+	util_error_echo
+
+
+	util_error_echo
+	util_error_echo "## Command:"
+	util_error_echo
+	util_error_echo "$agent $file_path"
+	util_error_echo
+
+	# $agent "/usr/share/wallpapers/FallenLeaf/contents/images/2560x1600.jpg"
+	$agent "$file_path"
+}
+
+opset_wallpaper_kde_main "$@"

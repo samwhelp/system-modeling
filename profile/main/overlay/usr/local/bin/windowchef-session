@@ -1,0 +1,231 @@
+#!/usr/bin/env bash
+
+
+################################################################################
+### Head: Note
+##
+
+##
+## ## Xsession
+##
+## * /usr/share/xsessions/windowchef-session.desktop
+## * /usr/share/windowchef/xsessions/windowchef-session
+##
+
+
+##
+## ## Autostart / System Wild
+##
+## > Not using system wild if user file exists.
+##
+## * /usr/share/windowchef/config/windowchef/environment
+## * /usr/share/windowchef/config/windowchef/autostart
+##
+
+##
+## ## Autostart / Per User
+##
+## ~/.config/windowchef/environment
+## ~/.config/windowchef/autostart
+##
+
+
+
+##
+### Tail: Note
+################################################################################
+
+
+################################################################################
+### Head: Init
+##
+
+
+##
+## Path / Base
+##
+
+THE_BASE_DIR_PATH="$(cd -- "$(dirname -- "$0")" ; pwd)"
+THE_PLAN_DIR_PATH="${THE_BASE_DIR_PATH}/.."
+
+
+##
+## Path / Sys / Config
+##
+
+#THE_SYS_CONFIG_DIR_PATH="/usr/share/windowchef/config/windowchef"
+THE_SYS_CONFIG_DIR_PATH="${THE_PLAN_DIR_PATH}/config/windowchef"
+THE_SYS_ATUOSTART_FILE_PATH="${THE_SYS_CONFIG_DIR_PATH}/autostart"
+THE_SYS_ENVIRONMENT_FILE_PATH="${THE_SYS_CONFIG_DIR_PATH}/environment"
+
+##
+## Path / Usr / Config
+##
+
+THE_USR_CONFIG_DIR_PATH="${HOME}/.config/windowchef"
+THE_USR_ATUOSTART_FILE_PATH="${THE_USR_CONFIG_DIR_PATH}/autostart"
+THE_USR_ENVIRONMENT_FILE_PATH="${THE_USR_CONFIG_DIR_PATH}/environment"
+
+
+##
+### Tail: Init
+################################################################################
+
+
+################################################################################
+### Head: Util / Debug
+##
+
+util_error_echo () {
+	echo "$@" 1>&2
+}
+
+##
+### Head: Util / Debug
+################################################################################
+
+
+################################################################################
+### Head: Model / Environment
+##
+
+sys_run_environment () {
+	if ! [ -f "${THE_SYS_ENVIRONMENT_FILE_PATH}" ]; then
+		return 0
+	fi
+
+	source "${THE_SYS_ENVIRONMENT_FILE_PATH}"
+	return 0
+}
+
+usr_run_environment () {
+
+	source "${THE_USR_ENVIRONMENT_FILE_PATH}"
+	return 0
+}
+
+mod_run_environment () {
+	mod_init_environment_path
+
+	if [ -f "${THE_USR_ENVIRONMENT_FILE_PATH}" ]; then
+		usr_run_environment
+		return 0
+	fi
+
+	sys_run_environment
+	return 0
+}
+
+mod_init_environment_path () {
+	PATH="$HOME/.config/windowchef/bin:/usr/share/windowchef/config/windowchef/bin:$PATH"
+}
+
+##
+### Tail: Model / Environment
+################################################################################
+
+
+################################################################################
+### Head: Model / Autostart
+##
+
+sys_run_autostart () {
+	if ! [ -f "${THE_SYS_ATUOSTART_FILE_PATH}" ]; then
+		return 0
+	fi
+
+	if ! [ -x "${THE_SYS_ATUOSTART_FILE_PATH}" ]; then
+		return 0
+	fi
+
+	"${THE_SYS_ATUOSTART_FILE_PATH}" &
+
+	return 0
+}
+
+usr_run_autostart () {
+
+	if [ -x "${THE_USR_ATUOSTART_FILE_PATH}" ]; then
+		"${THE_USR_ATUOSTART_FILE_PATH}" &
+
+		return 0
+	fi
+
+	sys_run_autostart
+	return 0
+}
+
+mod_run_autostart () {
+
+	if [ -f "${THE_USR_ATUOSTART_FILE_PATH}" ]; then
+		usr_run_autostart
+		return 0
+	fi
+
+	sys_run_autostart
+	return 0
+}
+
+##
+### Tail: Model / Autostart
+################################################################################
+
+
+
+
+################################################################################
+### Head: Model / Terminal
+##
+
+app_run_st () {
+	st &
+}
+
+app_run_sakura () {
+	sakura &
+}
+
+app_run_xfce4_terminal () {
+	xfce4-terminal &
+}
+
+mod_run_terminal () {
+	app_run_st
+	#app_run_sakura
+	#app_run_xfce4_terminal
+}
+
+##
+### Tail: Model / Terminal
+################################################################################
+
+
+################################################################################
+### Head: Model / Window Manager
+##
+
+mod_run_window_manager () {
+	exec windowchef
+}
+
+##
+### Tail: Model / Window Manager
+################################################################################
+
+
+################################################################################
+### Head: Main
+##
+
+__main__ () {
+	mod_run_environment
+	#mod_run_terminal
+	mod_run_autostart
+	mod_run_window_manager
+}
+
+__main__
+
+##
+### Tail: Main
+################################################################################

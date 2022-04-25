@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=XSession
+Exec=/usr/local/bin/spectrwm-session.sh
+TryExec=/usr/local/bin/spectrwm-session.sh
+Name=Be Spectrwm
+Comment=Spectrwm Xsession
+
+Name[zh_TW]=Be Spectrwm
+Comment[zh_TW]=Spectrwm Xsession

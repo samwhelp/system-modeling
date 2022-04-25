@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Be Sowm
+Comment=Be Sowm
+Exec=/usr/share/sowm/xsessions/sowm-session
+Icon=dwm
+Type=XSession

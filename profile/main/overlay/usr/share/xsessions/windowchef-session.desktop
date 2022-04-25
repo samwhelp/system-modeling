@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Be Windowchef
+Comment=Be Windowchef
+Exec=/usr/share/windowchef/xsessions/windowchef-session
+Icon=dwm
+Type=XSession

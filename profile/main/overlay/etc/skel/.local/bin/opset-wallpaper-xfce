@@ -1,0 +1,117 @@
+#!/usr/bin/env bash
+
+
+##
+## * $ man 3 dirname
+## * $ man 1 dirname
+## * $ man 3 basename
+## * $ man 1 basenaem
+## * https://en.wikipedia.org/wiki/Dirname
+## * https://en.wikipedia.org/wiki/Basename
+## * https://zh.wikipedia.org/zh-tw/Dirname
+## * https://zh.wikipedia.org/zh-tw/Basename
+##
+
+
+util_error_echo () {
+	echo "$@" 1>&2
+}
+
+sys_xfce_wallpaper_set () {
+
+	local file_path="$1"
+	local screen=`xrandr --listactivemonitors | awk -F ' ' 'END {print $1}' | tr -d \:`
+	local monitor=`xrandr --listactivemonitors | awk -F ' ' 'END {print $2}' | tr -d \*+`
+
+
+	util_error_echo "xfconf-query --channel xfce4-desktop --property /backdrop/screen${screen}/monitor${monitor}/workspace0/last-image --set $file_path --type 'string' --create"
+	xfconf-query --channel xfce4-desktop --property "/backdrop/screen${screen}/monitor${monitor}/workspace0/last-image" --set "$file_path" --type 'string' --create
+
+	util_error_echo "xfconf-query --channel xfce4-desktop --property /backdrop/screen${screen}/monitor${monitor}/workspace0/image-style --set 5 --type 'int' --create"
+	xfconf-query --channel xfce4-desktop --property "/backdrop/screen${screen}/monitor${monitor}/workspace0/image-style" --set "5" --type 'int' --create
+
+	util_error_echo "xfconf-query --channel xfce4-desktop --property /backdrop/single-workspace-mode --set true --type 'bool' --create"
+	xfconf-query --channel xfce4-desktop --property "/backdrop/single-workspace-mode" --set "true" --type 'bool' --create
+
+	##
+	## ## image-style
+	## 0: None
+	## 1: Centered
+	## 2: Tiled
+	## 3: Stretched
+	## 4: Scaled
+	## 5: Zoomed
+	##
+	## > None for Color
+	##
+}
+
+
+opset_wallpaper_xfce_main () {
+
+	local agent='sys_xfce_wallpaper_set'
+	local target_path="$1"
+	local file_path
+	local file_name
+	local dir_path
+
+	util_error_echo
+	util_error_echo "## Agent:"
+	util_error_echo
+	util_error_echo "$agent"
+	util_error_echo
+
+	if [ "none$target_path" = 'none' ]; then
+		target_path="$(pwd)"
+	fi
+
+	if ! [ -e "$target_path" ]; then
+
+		util_error_echo
+		util_error_echo "## File Not Exist:"
+		util_error_echo
+		util_error_echo "$target_path"
+		util_error_echo
+
+		return 1
+	fi
+
+	file_path="$(realpath -s "$target_path")"
+
+	if [ -d "$file_path" ]; then
+
+		util_error_echo
+		util_error_echo "## Is Dir:"
+		util_error_echo
+		util_error_echo "$target_path"
+		util_error_echo
+
+		return 1
+	fi
+
+
+	file_name="$(basename "$file_path")"
+	dir_path="$(dirname "$file_path")"
+
+
+	util_error_echo
+	util_error_echo "## Path:"
+	util_error_echo
+	util_error_echo "target_path=$target_path"
+	util_error_echo "file_path=$file_path"
+	util_error_echo "file_name=$file_name"
+	util_error_echo "dir_path=$dir_path"
+	util_error_echo
+
+
+	util_error_echo
+	util_error_echo "## Command:"
+	util_error_echo
+	util_error_echo "$agent $file_path"
+	util_error_echo
+
+	$agent "$file_path"
+
+}
+
+opset_wallpaper_xfce_main "$@"
