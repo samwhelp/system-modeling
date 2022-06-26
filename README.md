@@ -171,7 +171,7 @@ For Manjaro (Arch)
 * [~/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml)
 * [~/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml)
 * [~/.config/xfce4/helpers.rc](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/xfce4/helpers.rc)
-* [note-about-xfc](https://github.com/samwhelp/note-about-xfce/tree/gh-pages/_demo/config/xfce-config/main/config/xfce4)
+* [note-about-xfce](https://github.com/samwhelp/note-about-xfce/tree/gh-pages/_demo/config/xfce-config/main/config/xfce4)
 
 
 ## Window Manager
