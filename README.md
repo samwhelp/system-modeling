@@ -86,9 +86,9 @@
 * [~/.config/gtk-3.0/settings.ini](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.local/share/gtkrc-profile/gruvbox-dark/skel/.config/gtk-3.0/settings.ini)
 
 
-### qt5ct
+### qt-style-follow-gtk
 
-* [~/.config/qt5ct/qt5ct.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.local/share/qt5ctrc-profile/gruvbox-dark/skel/.config/qt5ct/qt5ct.conf)
+* [/etc/profile.d/qt-style-follow-gtk.sh](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/profile.d/qt-style-follow-gtk.sh)
 
 
 ### xsettingsd
