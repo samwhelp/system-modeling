@@ -317,6 +317,12 @@ For Manjaro (Arch)
 * [/usr/share/glib-2.0/schemas/50_mousepad.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_mousepad.gschema.override)
 
 
+### gedit
+
+* [/usr/share/glib-2.0/schemas/50_gedit.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_gedit.gschema.override)
+* [~/.config/gedit/tools/open-terminal-here](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/gedit/tools/open-terminal-here)
+
+
 ### atom
 
 * [~/.atom/config.cson](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.atom/config.cson)
