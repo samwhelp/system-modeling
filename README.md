@@ -306,6 +306,17 @@ For Manjaro (Arch)
 
 ## Tool / Text Editor
 
+
+### xed
+
+* [/usr/share/glib-2.0/schemas/50_xed.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_xed.gschema.override)
+
+
+### mousepad
+
+* [/usr/share/glib-2.0/schemas/50_mousepad.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_mousepad.gschema.override)
+
+
 ### atom
 
 * [~/.atom/config.cson](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.atom/config.cson)
