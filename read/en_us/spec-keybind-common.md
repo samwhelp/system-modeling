@@ -249,11 +249,11 @@
 
 | Keybind   | Action                       |
 | --------- | ---------------------------- |
-| `Alt + 1` | Switch to Workspace 1 (File) |
-| `Alt + 2` | Switch to Workspace 2 (Edit) |
-| `Alt + 3` | Switch to Workspace 3 (Web)  |
-| `Alt + 4` | Switch to Workspace 4 (Term) |
-| `Alt + 5` | Switch to Workspace 5 (Misc) |
+| `Alt + Ctrl + 1` | Switch to Workspace 1 (File) |
+| `Alt + Ctrl + 2` | Switch to Workspace 2 (Edit) |
+| `Alt + Ctrl + 3` | Switch to Workspace 3 (Web)  |
+| `Alt + Ctrl + 4` | Switch to Workspace 4 (Term) |
+| `Alt + Ctrl + 5` | Switch to Workspace 5 (Misc) |
 
 
 | Keybind   | Action                       |
@@ -280,11 +280,11 @@
 
 | Keybind   | Action                            |
 | --------- | --------------------------------- |
-| `Win + 1` | Window Move to Workspace 1 (File) |
-| `Win + 2` | Window Move to Workspace 2 (Edit) |
-| `Win + 3` | Window Move to Workspace 3 (Web)  |
-| `Win + 4` | Window Move to Workspace 4 (Term) |
-| `Win + 5` | Window Move to Workspace 5 (Misc) |
+| `Alt + Shift + 1` | Window Move to Workspace 1 (File) |
+| `Alt + Shift + 2` | Window Move to Workspace 2 (Edit) |
+| `Alt + Shift + 3` | Window Move to Workspace 3 (Web)  |
+| `Alt + Shift + 4` | Window Move to Workspace 4 (Term) |
+| `Alt + Shift + 5` | Window Move to Workspace 5 (Misc) |
 
 ## Misc
 
