@@ -100,13 +100,18 @@
 
 <?php //include_once(__DIR__ . '/Applications/NormalNoDecorations.php'); ?>
 
-<?php //include_once(__DIR__ . '/Rule/Sakura.php'); ?>
-<?php //include_once(__DIR__ . '/Rule/Xfce4Terminal.php'); ?>
-<?php include_once(__DIR__ . '/Rule/GnomeTerminal.php'); ?>
-<?php include_once(__DIR__ . '/Rule/MateTerminal.php'); ?>
-<?php include_once(__DIR__ . '/Rule/Terminator.php'); ?>
+
+<?php // 1:File ?>
+<?php include_once(__DIR__ . '/Rule/Pcmanfm-qt.php'); ?>
+<?php include_once(__DIR__ . '/Rule/Pcmanfm.php'); ?>
+<?php include_once(__DIR__ . '/Rule/Spacefm.php'); ?>
+<?php include_once(__DIR__ . '/Rule/Nautilus.php'); ?>
+<?php include_once(__DIR__ . '/Rule/Thunar.php'); ?>
+<?php include_once(__DIR__ . '/Rule/Dolphin.php'); ?>
+<?php include_once(__DIR__ . '/Rule/Filezilla.php'); ?>
 
 
+<?php // 2:Edit ?>
 <?php //include_once(__DIR__ . '/Rule/Mousepad.php'); ?>
 <?php //include_once(__DIR__ . '/Rule/Geany.php'); ?>
 <?php //include_once(__DIR__ . '/Rule/Leafpad.php'); ?>
@@ -118,18 +123,22 @@
 <?php include_once(__DIR__ . '/Rule/Kdevelop.php'); ?>
 <?php include_once(__DIR__ . '/Rule/QtCreator.php'); ?>
 
+
+<?php // 3:Web ?>
 <?php include_once(__DIR__ . '/Rule/Firefox.php'); ?>
 <?php include_once(__DIR__ . '/Rule/ChromiumBrowser.php'); ?>
 <?php include_once(__DIR__ . '/Rule/GoogleChrome.php'); ?>
 
-<?php include_once(__DIR__ . '/Rule/Pcmanfm-qt.php'); ?>
-<?php include_once(__DIR__ . '/Rule/Pcmanfm.php'); ?>
-<?php include_once(__DIR__ . '/Rule/Spacefm.php'); ?>
-<?php include_once(__DIR__ . '/Rule/Nautilus.php'); ?>
-<?php include_once(__DIR__ . '/Rule/Thunar.php'); ?>
-<?php include_once(__DIR__ . '/Rule/Dolphin.php'); ?>
-<?php include_once(__DIR__ . '/Rule/Filezilla.php'); ?>
 
+<?php // 4:Term ?>
+<?php //include_once(__DIR__ . '/Rule/Sakura.php'); ?>
+<?php //include_once(__DIR__ . '/Rule/Xfce4Terminal.php'); ?>
+<?php include_once(__DIR__ . '/Rule/GnomeTerminal.php'); ?>
+<?php include_once(__DIR__ . '/Rule/MateTerminal.php'); ?>
+<?php include_once(__DIR__ . '/Rule/Terminator.php'); ?>
+
+
+<?php // 5:Misc ?>
 <?php include_once(__DIR__ . '/Rule/Xephyr.php'); ?>
 <?php //include_once(__DIR__ . '/Rule/Mpv.php'); ?>
 <?php //include_once(__DIR__ . '/Rule/Vlc.php'); ?>

@@ -1,5 +1,5 @@
 
 	<application class="Gnome-terminal" type="normal">
-		<desktop>1</desktop>
+		<desktop>4</desktop>
 		<focus>yes</focus>
 	</application>

@@ -40,6 +40,7 @@
 <?php include_once(__DIR__ . '/Keybind/ApplicationLaunchTerminal.php'); ?>
 <?php include_once(__DIR__ . '/Keybind/ApplicationLaunchFavorite.php'); ?>
 
+<?php include_once(__DIR__ . '/Keybind/ApplicationFocusFn.php'); ?>
 <?php //include_once(__DIR__ . '/Keybind/ApplicationFocusTerminal.php'); ?>
 <?php //include_once(__DIR__ . '/Keybind/ApplicationFocusFavorite.php'); ?>
 

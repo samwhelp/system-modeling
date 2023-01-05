@@ -1,5 +1,5 @@
 
 	<application class="Nautilus" type="normal">
-		<desktop>4</desktop>
+		<desktop>1</desktop>
 		<focus>yes</focus>
 	</application>
