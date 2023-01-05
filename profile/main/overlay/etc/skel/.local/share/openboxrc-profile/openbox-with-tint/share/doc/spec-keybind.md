@@ -83,7 +83,7 @@
 
 ## Rofi
 
-* Config Sample / [Rofi](../gen/openbox-gen-rc/Section/Keybind/Rofi.php)
+* Config Snippet / [Rofi](../gen/openbox-gen-rc/Section/Keybind/Rofi.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -95,7 +95,7 @@
 
 ## Launch App
 
-* Config Sample / [LaunchApp](../gen/openbox-gen-rc/Section/Keybind/LaunchApp.php)
+* Config Snippet / [LaunchApp](../gen/openbox-gen-rc/Section/Keybind/LaunchApp.php)
 
 ### Terminal
 
@@ -145,7 +145,7 @@
 
 ## Print
 
-* Config Sample / [Print](../gen/openbox-gen-rc/Section/Keybind/Print.php)
+* Config Snippet / [Print](../gen/openbox-gen-rc/Section/Keybind/Print.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -155,7 +155,7 @@
 
 ## Wallpaper
 
-* Config Sample / [Wallpaper](../gen/openbox-gen-rc/Section/Keybind/Wallpaper.php)
+* Config Snippet / [Wallpaper](../gen/openbox-gen-rc/Section/Keybind/Wallpaper.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -165,7 +165,7 @@
 
 ## System
 
-* Config Sample / [Openbox](../gen/openbox-gen-rc/Section/Keybind/Openbox.php)
+* Config Snippet / [Openbox](../gen/openbox-gen-rc/Section/Keybind/Openbox.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -178,7 +178,7 @@
 
 ## Show Client Menu
 
-* Config Sample / [MenuClient](../gen/openbox-gen-rc/Section/Keybind/MenuClient.php)
+* Config Snippet / [MenuClient](../gen/openbox-gen-rc/Section/Keybind/MenuClient.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -187,7 +187,7 @@
 
 ## Show Root Menu
 
-* Config Sample / [MenuRoot](../gen/openbox-gen-rc/Section/Keybind/MenuRoot.php)
+* Config Snippet / [MenuRoot](../gen/openbox-gen-rc/Section/Keybind/MenuRoot.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -198,7 +198,7 @@
 
 ## Show Workspace Menu
 
-* Config Sample / [MenuClientList](../gen/openbox-gen-rc/Section/Keybind/MenuClientList.php)
+* Config Snippet / [MenuClientList](../gen/openbox-gen-rc/Section/Keybind/MenuClientList.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -208,7 +208,7 @@
 
 ## Toggle Show Desktop
 
-* Config Sample / [ToggleShowDesktop](../gen/openbox-gen-rc/Section/Keybind/ToggleShowDesktop.php)
+* Config Snippet / [ToggleShowDesktop](../gen/openbox-gen-rc/Section/Keybind/ToggleShowDesktop.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -217,7 +217,7 @@
 
 ## Go To Workspace
 
-* Config Sample / [GoToDesktop](../gen/openbox-gen-rc/Section/Keybind/GoToDesktop.php)
+* Config Snippet / [GoToDesktop](../gen/openbox-gen-rc/Section/Keybind/GoToDesktop.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -265,7 +265,7 @@
 
 ## Send To Workspace
 
-* Config Sample / [SendToDesktop](../gen/openbox-gen-rc/Section/Keybind/SendToDesktop.php)
+* Config Snippet / [SendToDesktop](../gen/openbox-gen-rc/Section/Keybind/SendToDesktop.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -320,7 +320,7 @@
 
 ## Window Switch
 
-* Config Sample / [WindowSwitch](../gen/openbox-gen-rc/Section/Keybind/WindowSwitch.php)
+* Config Snippet / [WindowSwitch](../gen/openbox-gen-rc/Section/Keybind/WindowSwitch.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -359,7 +359,7 @@
 
 ## Window Raise or Lower
 
-* Config Sample / [WindowRaiseLower](../gen/openbox-gen-rc/Section/Keybind/WindowRaiseLower.php)
+* Config Snippet / [WindowRaiseLower](../gen/openbox-gen-rc/Section/Keybind/WindowRaiseLower.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -370,7 +370,7 @@
 
 ## Window Close
 
-* Config Sample / [WindowClose](../gen/openbox-gen-rc/Section/Keybind/WindowClose.php)
+* Config Snippet / [WindowClose](../gen/openbox-gen-rc/Section/Keybind/WindowClose.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -381,7 +381,7 @@
 
 ## Window Iconify
 
-* Config Sample / [WindowIconify](../gen/openbox-gen-rc/Section/Keybind/WindowIconify.php)
+* Config Snippet / [WindowIconify](../gen/openbox-gen-rc/Section/Keybind/WindowIconify.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -391,7 +391,7 @@
 
 ## Window Toggle Maximize
 
-* Config Sample / [WindowToggleMaximize](../gen/openbox-gen-rc/Section/Keybind/WindowToggleMaximize.php)
+* Config Snippet / [WindowToggleMaximize](../gen/openbox-gen-rc/Section/Keybind/WindowToggleMaximize.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -401,7 +401,7 @@
 
 ## Window Toggle Fullscreen
 
-* Config Sample / [WindowToggleFullscreen](../gen/openbox-gen-rc/Section/Keybind/WindowToggleFullscreen.php)
+* Config Snippet / [WindowToggleFullscreen](../gen/openbox-gen-rc/Section/Keybind/WindowToggleFullscreen.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -410,7 +410,7 @@
 
 ## Window Toggle Decorations
 
-* Config Sample / [WindowToggleDecorations](../gen/openbox-gen-rc/Section/Keybind/WindowToggleDecorations.php)
+* Config Snippet / [WindowToggleDecorations](../gen/openbox-gen-rc/Section/Keybind/WindowToggleDecorations.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -419,7 +419,7 @@
 
 ## Window Toggle Shade
 
-* Config Sample / [WindowToggleShade](../gen/openbox-gen-rc/Section/Keybind/WindowToggleShade.php)
+* Config Snippet / [WindowToggleShade](../gen/openbox-gen-rc/Section/Keybind/WindowToggleShade.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -428,7 +428,7 @@
 
 ## Window Toggle AlwaysOnTop
 
-* Config Sample / [WindowToggleAlwaysOnTop](../gen/openbox-gen-rc/Section/Keybind/WindowToggleAlwaysOnTop.php)
+* Config Snippet / [WindowToggleAlwaysOnTop](../gen/openbox-gen-rc/Section/Keybind/WindowToggleAlwaysOnTop.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -437,7 +437,7 @@
 
 ## Window Toggle AlwaysOnBottom
 
-* Config Sample / [WindowToggleAlwaysOnBottom](../gen/openbox-gen-rc/Section/Keybind/WindowToggleAlwaysOnBottom.php)
+* Config Snippet / [WindowToggleAlwaysOnBottom](../gen/openbox-gen-rc/Section/Keybind/WindowToggleAlwaysOnBottom.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -446,7 +446,7 @@
 
 ## Window SendToLayer Normal
 
-* Config Sample / [WindowSendToLayer](../gen/openbox-gen-rc/Section/Keybind/WindowSendToLayer.php)
+* Config Snippet / [WindowSendToLayer](../gen/openbox-gen-rc/Section/Keybind/WindowSendToLayer.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -455,7 +455,7 @@
 
 ## Window Move
 
-* Config Sample / [WindowBeginMove](../gen/openbox-gen-rc/Section/Keybind/WindowBeginMove.php)
+* Config Snippet / [WindowBeginMove](../gen/openbox-gen-rc/Section/Keybind/WindowBeginMove.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -480,7 +480,7 @@
 
 ## Window Resize
 
-* Config Sample / [WindowBeginResize](../gen/openbox-gen-rc/Section/Keybind/WindowBeginResize.php)
+* Config Snippet / [WindowBeginResize](../gen/openbox-gen-rc/Section/Keybind/WindowBeginResize.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -521,7 +521,7 @@
 
 ## Window Tiling
 
-* Config Sample / [WindowTiling](../gen/openbox-gen-rc/Section/Keybind/WindowTiling.php)
+* Config Snippet / [WindowTiling](../gen/openbox-gen-rc/Section/Keybind/WindowTiling.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -538,7 +538,7 @@
 
 ## Window Tiling Move / Side
 
-* Config Sample / [WindowTilingMoveSide](../gen/openbox-gen-rc/Section/Keybind/WindowTilingMoveSide.php)
+* Config Snippet / [WindowTilingMoveSide](../gen/openbox-gen-rc/Section/Keybind/WindowTilingMoveSide.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -557,7 +557,7 @@
 
 ## Window Tiling Move / Corner
 
-* Config Sample / [WindowTilingMoveCorner](../gen/openbox-gen-rc/Section/Keybind/WindowTilingMoveCorner.php)
+* Config Snippet / [WindowTilingMoveCorner](../gen/openbox-gen-rc/Section/Keybind/WindowTilingMoveCorner.php)
 
 | Key | Description | Doc |
 | --- | --- | --- |
@@ -577,7 +577,7 @@
 
 
 
-## Config Sample
+## Config Snippet
 
 * [Openbox](../gen/openbox-gen-rc/Section/Keybind/Openbox.php)
 * [MenuClient](../gen/openbox-gen-rc/Section/Keybind/MenuClient.php)

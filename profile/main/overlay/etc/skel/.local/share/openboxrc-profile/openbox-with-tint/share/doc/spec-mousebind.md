@@ -38,7 +38,7 @@
 
 ## On Desktop
 
-* Config Sample / [Context Root](../gen/openbox-gen-rc/Section/Mousebind/Root.php)
+* Config Snippet / [Context Root](../gen/openbox-gen-rc/Section/Mousebind/Root.php)
 
 | Button | Description | Doc |
 | --- | --- | --- |
@@ -51,7 +51,7 @@
 
 ### On Desktop
 
-* Config Sample / [Context Desktop](../gen/openbox-gen-rc/Section/Mousebind/Desktop.php)
+* Config Snippet / [Context Desktop](../gen/openbox-gen-rc/Section/Mousebind/Desktop.php)
 
 | Button | Description | Doc |
 | --- | --- | --- |
@@ -61,8 +61,8 @@
 
 ### On Desktop or On Frame
 
-* Config Sample / [Context Desktop](../gen/openbox-gen-rc/Section/Mousebind/Desktop.php)
-* Config Sample / [Context Frame](../gen/openbox-gen-rc/Section/Mousebind/Frame.php)
+* Config Snippet / [Context Desktop](../gen/openbox-gen-rc/Section/Mousebind/Desktop.php)
+* Config Snippet / [Context Frame](../gen/openbox-gen-rc/Section/Mousebind/Frame.php)
 
 | Button | Description | Doc |
 | --- | --- | --- |
@@ -72,7 +72,7 @@
 
 ## Send To Workspace
 
-* Config Sample / [Context Frame](../gen/openbox-gen-rc/Section/Mousebind/Frame.php)
+* Config Snippet / [Context Frame](../gen/openbox-gen-rc/Section/Mousebind/Frame.php)
 
 | Button | Description | Doc |
 | --- | --- | --- |
@@ -84,8 +84,8 @@
 
 ### On Frame or On Titlebar
 
-* Config Sample / [Context Frame](../gen/openbox-gen-rc/Section/Mousebind/Frame.php)
-* Config Sample / [Context Titlebar](../gen/openbox-gen-rc/Section/Mousebind/Titlebar.php)
+* Config Snippet / [Context Frame](../gen/openbox-gen-rc/Section/Mousebind/Frame.php)
+* Config Snippet / [Context Titlebar](../gen/openbox-gen-rc/Section/Mousebind/Titlebar.php)
 
 | Button | Description | Doc |
 | --- | --- | --- |
@@ -94,7 +94,7 @@
 
 ### On Titlebar
 
-* Config Sample / [Context Titlebar](../gen/openbox-gen-rc/Section/Mousebind/Titlebar.php)
+* Config Snippet / [Context Titlebar](../gen/openbox-gen-rc/Section/Mousebind/Titlebar.php)
 
 | Button | Description | Doc |
 | --- | --- | --- |
@@ -105,8 +105,8 @@
 
 ### On Frame or On Titlebar
 
-* Config Sample / [Context Frame](../gen/openbox-gen-rc/Section/Mousebind/Frame.php)
-* Config Sample / [Context Titlebar](../gen/openbox-gen-rc/Section/Mousebind/Titlebar.php)
+* Config Snippet / [Context Frame](../gen/openbox-gen-rc/Section/Mousebind/Frame.php)
+* Config Snippet / [Context Titlebar](../gen/openbox-gen-rc/Section/Mousebind/Titlebar.php)
 
 | Button | Description | Doc |
 | --- | --- | --- |
@@ -117,7 +117,7 @@
 
 ### On Frame
 
-* Config Sample / [Context Frame](../gen/openbox-gen-rc/Section/Mousebind/Frame.php)
+* Config Snippet / [Context Frame](../gen/openbox-gen-rc/Section/Mousebind/Frame.php)
 
 | Button | Description | Doc |
 | --- | --- | --- |
@@ -125,7 +125,7 @@
 
 ### On Titlebar
 
-* Config Sample / [Context Titlebar](../gen/openbox-gen-rc/Section/Mousebind/Titlebar.php)
+* Config Snippet / [Context Titlebar](../gen/openbox-gen-rc/Section/Mousebind/Titlebar.php)
 
 | Button | Description | Doc |
 | --- | --- | --- |
@@ -136,7 +136,7 @@
 
 ### On Frame
 
-* Config Sample / [Context Frame](../gen/openbox-gen-rc/Section/Mousebind/Frame.php)
+* Config Snippet / [Context Frame](../gen/openbox-gen-rc/Section/Mousebind/Frame.php)
 
 | Button | Description | Doc |
 | --- | --- | --- |
@@ -147,7 +147,7 @@
 
 ### On Frame
 
-* Config Sample / [Context Frame](../gen/openbox-gen-rc/Section/Mousebind/Frame.php)
+* Config Snippet / [Context Frame](../gen/openbox-gen-rc/Section/Mousebind/Frame.php)
 
 | Button | Description | Doc |
 | --- | --- | --- |
@@ -158,7 +158,7 @@
 
 ### On Titlebar
 
-* Config Sample / [Context Titlebar](../gen/openbox-gen-rc/Section/Mousebind/Titlebar.php)
+* Config Snippet / [Context Titlebar](../gen/openbox-gen-rc/Section/Mousebind/Titlebar.php)
 
 | Button | Description | Doc |
 | --- | --- | --- |
@@ -170,7 +170,7 @@
 
 ### On Titlebar
 
-* Config Sample / [Context Titlebar](../gen/openbox-gen-rc/Section/Mousebind/Titlebar.php)
+* Config Snippet / [Context Titlebar](../gen/openbox-gen-rc/Section/Mousebind/Titlebar.php)
 
 | Button | Description | Doc |
 | --- | --- | --- |
@@ -179,7 +179,7 @@
 
 
 
-## Config Sample
+## Config Snippet
 
 * [Context Root](../gen/openbox-gen-rc/Section/Mousebind/Root.php)
 * [Context Desktop](../gen/openbox-gen-rc/Section/Mousebind/Desktop.php)
