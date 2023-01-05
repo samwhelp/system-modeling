@@ -40,12 +40,32 @@ sudo cp clicksnap /usr/local/bin/clicksnap
 
 //-->
 
+		<!--
 		<mousebind action="Press" button="A-Left">
 			<action name="UnmaximizeFull"/>
 			<action name="Execute">
 				<command>clicksnap</command>
 			</action>
 		</mousebind>
+		//-->
+
+		<!--
+		<mousebind action="Press" button="C-S-Left">
+			<action name="UnmaximizeFull"/>
+			<action name="Execute">
+				<command>snapwin</command>
+			</action>
+		</mousebind>
+		//-->
+
+		<!--
+		<mousebind action="Press" button="A-S-Left">
+			<action name="UnmaximizeFull"/>
+			<action name="Execute">
+				<command>deskgrid</command>
+			</action>
+		</mousebind>
+		//-->
 
 
 		<mousebind button="W-Left" action="Press">
@@ -60,8 +80,21 @@ sudo cp clicksnap /usr/local/bin/clicksnap
 		//-->
 
 		<mousebind button="W-Left" action="Drag">
-			<action name="UnmaximizeFull"/>
-			<action name="Move"/>
+			<action name="if">
+				<maximized>yes</maximized>
+				<then>
+					<action name="UnmaximizeFull"/>
+					<action name="MoveResizeTo">
+						<x>center</x>
+						<y>current</y>
+					</action>
+					<action name="Move"/>
+				</then>
+				<else>
+					<!-- <action name="UnmaximizeFull"/> //-->
+					<action name="Move"/>
+				</else>
+			</action>
 		</mousebind>
 
 		<!--
@@ -73,7 +106,7 @@ sudo cp clicksnap /usr/local/bin/clicksnap
 		//-->
 
 		<mousebind button="W-Right" action="Drag">
-			<action name="UnmaximizeFull"/>
+			<!-- <action name="UnmaximizeFull"/> //-->
 			<action name="Resize"/>
 		</mousebind>
 

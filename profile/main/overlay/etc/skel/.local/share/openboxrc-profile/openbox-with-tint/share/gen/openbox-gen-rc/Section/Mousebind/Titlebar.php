@@ -3,15 +3,55 @@
 	<context name="Titlebar">
 
 		<mousebind button="Left" action="Drag">
-			<action name="UnmaximizeFull"/>
-			<action name="Move"/>
+			<action name="if">
+				<maximized>yes</maximized>
+				<then>
+					<action name="UnmaximizeFull"/>
+					<action name="MoveResizeTo">
+						<x>center</x>
+						<y>current</y>
+					</action>
+					<action name="Move"/>
+				</then>
+				<else>
+					<!-- <action name="UnmaximizeFull"/> //-->
+					<action name="Move"/>
+				</else>
+			</action>
 		</mousebind>
+
 
 		<mousebind button="Left" action="DoubleClick">
 			<action name="ToggleMaximize"/>
 		</mousebind>
 
+
 		<mousebind button="Up" action="Click">
+			<action name="if">
+				<shaded>no</shaded>
+				<then>
+					<action name="Shade"/>
+					<!--
+					<action name="FocusToBottom"/>
+					<action name="Unfocus"/>
+					<action name="Lower"/>
+					//-->
+				</then>
+			</action>
+		</mousebind>
+
+		<mousebind button="Down" action="Click">
+			<action name="if">
+				<shaded>yes</shaded>
+				<then>
+					<action name="Unshade"/>
+					<action name="Raise"/>
+				</then>
+			</action>
+		</mousebind>
+
+
+		<mousebind button="W-Up" action="Click">
 			<action name="if">
 				<shaded>no</shaded>
 				<then>
@@ -23,7 +63,7 @@
 			</action>
 		</mousebind>
 
-		<mousebind button="Down" action="Click">
+		<mousebind button="W-Down" action="Click">
 			<action name="if">
 				<shaded>yes</shaded>
 				<then>
