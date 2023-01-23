@@ -35,6 +35,14 @@
 > grave means ` (~)
 
 
+| Key   | Alias | Alias | Alias |
+| ----- | ----- | ----- | ----- |
+| Alt   | Mod1  |       |       |
+| Win   | Mod4  | Super | Meta  |
+| Ctrl  |       |       |       |
+| Shift |       |       |       |
+
+
 ## System Control
 
 | Keybind           | Action   |
