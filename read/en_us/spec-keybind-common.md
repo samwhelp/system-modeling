@@ -24,6 +24,17 @@
 * [With grave_tab_a_s Key](https://samwhelp.github.io/system-modeling/read/en_us/spec-keybind/with-grave_tab_a_s-key)
 * [With Number Key](https://samwhelp.github.io/system-modeling/read/en_us/spec-keybind/with-number-key)
 
+
+| Key   | Key | Key   |
+| ----- | --- | ----- |
+| Up    | k   | grave |
+| Down  | j   | Tab   |
+| Left  | h   | a     |
+| Right | l   | s     |
+
+> grave means ` (~)
+
+
 ## System Control
 
 | Keybind           | Action   |

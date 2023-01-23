@@ -25,6 +25,17 @@
 * [使用「上排數字鍵」相關的操作](https://samwhelp.github.io/system-modeling/read/zh_tw/spec-keybind/with-number-key)
 
 
+| 方向  | 按鍵  | 按鍵 | 按鍵  |
+| ----- | ----- | ---- | ----- |
+| 上    | Up    | k    | grave |
+| 下    | Down  | j    | Tab   |
+| 左    | Left  | h    | a     |
+| 右    | Right | l    | s     |
+
+
+> 「grave」 指的是 「`」 ，在「Tab」鍵上方，也就是「~」那個鍵。
+
+
 ## 系統操作
 
 | 按鍵組合          | 功能         |
