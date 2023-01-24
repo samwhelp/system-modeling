@@ -107,6 +107,7 @@
 
 ## Theme
 
+
 ## themes
 
 * [~/.themes](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.themes)
@@ -122,6 +123,7 @@
 ### RGapsBlendNoButtons
 
 * [~/.themes/RGapsBlendNoButtons](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.themes/RGapsBlendNoButtons)
+
 
 ## icons
 
@@ -161,6 +163,16 @@ For Ubuntu (Debian)
 For Manjaro (Arch)
 
 * [~/.pam_environment](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/fcitx/asset/.pam_environment) ([deprecated](https://wiki.archlinux.org/title/environment_variables#Using_pam_env))
+
+
+### fcitx5
+
+* [~/.config/fcitx5/](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.config/fcitx5)
+* [~/.config/fcitx5/profile](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/fcitx5/profile)
+* [~/.config/fcitx5/config](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/fcitx5/config)
+* [~/.config/fcitx5/conf/chewing.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/fcitx5/conf/chewing.conf)
+* [~/.config/fcitx5/conf/classicui.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/fcitx5/conf/classicui.conf)
+
 
 
 ## dconf
