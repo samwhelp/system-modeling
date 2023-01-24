@@ -200,6 +200,11 @@ For Manjaro (Arch)
 
 
 
+### kde-plasma
+
+* [~/.config/kglobalshortcutsrc](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/kglobalshortcutsrc)
+
+
 ## Window Manager
 
 ### openbox
