@@ -218,6 +218,17 @@ For Manjaro (Arch)
 * [/etc/dconf/db/distro.d/50_gnome-shell-keybind-custom](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/dconf/db/distro.d/50_gnome-shell-keybind-custom)
 
 
+### gnome-flashback
+
+* [/usr/share/glib-2.0/schemas/50_gnome-flashback-config-main.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_gnome-flashback-config-main.gschema.override)
+* [/usr/share/glib-2.0/schemas/50_gnome-flashback-favorite-apps.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_gnome-flashback-favorite-apps.gschema.override)
+* [/usr/share/glib-2.0/schemas/50_gnome-flashback-keybind-main.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_gnome-flashback-keybind-main.gschema.override)
+* [/usr/share/glib-2.0/schemas/50_gnome-flashback-theme-main.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_gnome-flashback-theme-main.gschema.override)
+* [/usr/share/glib-2.0/schemas/50_gnome-flashback-wallpaper-main.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_gnome-flashback-wallpaper-main.gschema.override)
+* [/usr/share/glib-2.0/schemas/50_gnome-flashback-workspace-main.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_gnome-flashback-workspace-main.gschema.override)
+* [/etc/dconf/db/distro.d/50_gnome-flashback-keybind-custom](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/dconf/db/distro.d/50_gnome-flashback-keybind-custom)
+
+
 ### cinnamon
 
 * [/usr/share/glib-2.0/schemas/50_cinnamon-config-main.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_cinnamon-config-main.gschema.override)
