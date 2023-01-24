@@ -155,7 +155,7 @@ For Ubuntu (Debian)
 
 For Manjaro (Arch)
 
-* [~/.pam_environment](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/fcitx/asset/.pam_environment)
+* [~/.pam_environment](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/fcitx/asset/.pam_environment) ([deprecated](https://wiki.archlinux.org/title/environment_variables#Using_pam_env))
 
 
 ## dconf
