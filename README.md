@@ -216,10 +216,33 @@ For Manjaro (Arch)
 * [/etc/dconf/db/distro.d/50_gnome-shell-keybind-custom](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/dconf/db/distro.d/50_gnome-shell-keybind-custom)
 
 
+### cinnamon
+
+* [/usr/share/glib-2.0/schemas/50_cinnamon-config-main.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_cinnamon-config-main.gschema.override)
+* [/usr/share/glib-2.0/schemas/50_cinnamon-favorite-apps.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_cinnamon-favorite-apps.gschema.override)
+* [/usr/share/glib-2.0/schemas/50_cinnamon-keybind-main.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_cinnamon-keybind-main.gschema.override)
+* [/usr/share/glib-2.0/schemas/50_cinnamon-theme-main.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_cinnamon-theme-main.gschema.override)
+* [/usr/share/glib-2.0/schemas/50_cinnamon-wallpaper-main.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_cinnamon-wallpaper-main.gschema.override)
+* [/usr/share/glib-2.0/schemas/50_cinnamon-workspace-main.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_cinnamon-workspace-main.gschema.override)
+* [/etc/dconf/db/distro.d/50_cinnamon-keybind-custom](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/dconf/db/distro.d/50_cinnamon-keybind-custom)
+
+
+### mate
+
+* [/usr/share/glib-2.0/schemas/50_mate-config-main.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_mate-config-main.gschema.override)
+* [/usr/share/glib-2.0/schemas/50_mate-favorite-apps.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_mate-favorite-apps.gschema.override)
+* [/usr/share/glib-2.0/schemas/50_mate-keybind-main.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_mate-keybind-main.gschema.override)
+* [/usr/share/glib-2.0/schemas/50_mate-theme-main.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_mate-theme-main.gschema.override)
+* [/usr/share/glib-2.0/schemas/50_mate-wallpaper-main.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_mate-wallpaper-main.gschema.override)
+* [/usr/share/glib-2.0/schemas/50_mate-workspace-main.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_mate-workspace-main.gschema.override)
+* [/etc/dconf/db/distro.d/50_mate-keybind-custom](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/dconf/db/distro.d/50_mate-keybind-custom)
 
 ### kde-plasma
 
 * [~/.config/kglobalshortcutsrc](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/kglobalshortcutsrc)
+
+
+
 
 
 ## Window Manager
@@ -267,6 +290,9 @@ For Manjaro (Arch)
 * [~/.local/bin/leftwmrc-theme-get](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.local/bin/leftwmrc-theme-get)
 * [~/.config/leftwm](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.local/share/leftwmrc-profile/leftwm-with-tint2-panel)
 * [note-about-leftwm](https://github.com/samwhelp/note-about-leftwm/tree/gh-pages/_demo/config/leftwm-config/plan/config/leftwm)
+
+
+
 
 
 ## Util
