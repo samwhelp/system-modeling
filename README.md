@@ -158,6 +158,18 @@ For Manjaro (Arch)
 * [~/.pam_environment](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/fcitx/asset/.pam_environment)
 
 
+## dconf
+
+* [/etc/dconf/profile/user](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/dconf/profile/user)
+* /etc/dconf/db/distro
+* /etc/dconf/db/distro.d
+* /etc/dconf/db/site
+* /etc/dconf/db/site.d
+* /etc/dconf/db/local
+* /etc/dconf/db/local.d
+* ~/.config/dconf/user
+* ~/.config/dconf/user.d
+* ~/.config/dconf/user.txt
 
 
 ## Desktop Environment
@@ -174,6 +186,18 @@ For Manjaro (Arch)
 * [~/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml)
 * [~/.config/xfce4/helpers.rc](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/xfce4/helpers.rc)
 * [note-about-xfce](https://github.com/samwhelp/note-about-xfce/tree/gh-pages/_demo/config/xfce-config/main/config/xfce4)
+
+
+### gnome-shell
+
+* [/usr/share/glib-2.0/schemas/50_gnome-shell-config-main.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_gnome-shell-config-main.gschema.override)
+* [/usr/share/glib-2.0/schemas/50_gnome-shell-favorite-apps.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_gnome-shell-favorite-apps.gschema.override)
+* [/usr/share/glib-2.0/schemas/50_gnome-shell-keybind-main.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_gnome-shell-keybind-main.gschema.override)
+* [/usr/share/glib-2.0/schemas/50_gnome-shell-theme-main.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_gnome-shell-theme-main.gschema.override)
+* [/usr/share/glib-2.0/schemas/50_gnome-shell-wallpaper-main.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_gnome-shell-wallpaper-main.gschema.override)
+* [/usr/share/glib-2.0/schemas/50_gnome-shell-workspace-main.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_gnome-shell-workspace-main.gschema.override)
+* [/etc/dconf/db/distro.d/50_gnome-shell-keybind-custom](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/dconf/db/distro.d/50_gnome-shell-keybind-custom)
+
 
 
 ## Window Manager
@@ -296,6 +320,9 @@ For Manjaro (Arch)
 * [~/.config/xfce4/terminal/terminalrc](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/xfce4/terminal/terminalrc)
 
 
+### gnome-terminal
+
+* [/etc/dconf/db/distro.d/50_gnome-terminal](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/dconf/db/distro.d/50_gnome-terminal)
 
 
 ## Tool / File Manager
