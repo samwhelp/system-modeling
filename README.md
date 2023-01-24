@@ -181,28 +181,36 @@ For Manjaro (Arch)
 ### openbox
 
 * [~/.local/bin/openboxrc-ctrl](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.local/bin/openboxrc-ctrl)
-* [~/.config/openbox](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.local/share/openboxrc-profile/openbox-with-tint)
+* [~/.config/openbox](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.local/share/openboxrc-profile/openbox-with-tint2-panel)
 * [note-about-openbox](https://github.com/samwhelp/note-about-openbox/tree/gh-pages/_demo/config/openbox-config/plan/config/openbox)
+
+
+| Path | Note |
+| --- | --- |
+| [~/.config/openbox/rc.xml](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.local/share/openboxrc-profile/openbox-with-tint2-panel/rc.xml) | openbox rc |
+| [~/.config/openbox/menu.xml](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.local/share/openboxrc-profile/openbox-with-tint2-panel/menu.xml) | openbox menu |
+| [~/.config/openbox/environment](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.local/share/openboxrc-profile/openbox-with-tint2-panel/environment) | openbox environment |
+| [~/.config/openbox/autostart](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.local/share/openboxrc-profile/openbox-with-tint2-panel/autostart) | openbox autostart |
 
 
 ### i3wm
 
 * [~/.local/bin/i3wmrc-ctrl](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.local/bin/i3wmrc-ctrl)
-* [~/.config/i3](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.local/share/i3wmrc-profile/i3wm-with-tint)
+* [~/.config/i3](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.local/share/i3wmrc-profile/i3wm-with-tint2-panel)
 * [note-about-i3wm](https://github.com/samwhelp/note-about-i3wm/tree/gh-pages/_demo/config/i3wm-config/plan/config/i3)
 
 
 ### bspwm
 
 * [~/.local/bin/bspwmrc-ctrl](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.local/bin/bspwmrc-ctrl)
-* [~/.config/bspwm](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.local/share/bspwmrc-profile/bspwm-with-tint)
+* [~/.config/bspwm](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.local/share/bspwmrc-profile/bspwm-with-tint2-panel)
 * [note-about-bspwm](https://github.com/samwhelp/note-about-bspwm/tree/gh-pages/_demo/config/bspwm-config/plan/config/bspwm)
 
 
 ### herbstluftwm
 
 * [~/.local/bin/herbstluftwmrc-ctrl](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.local/bin/herbstluftwmrc-ctrl)
-* [~/.config/herbstluftwm](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.local/share/herbstluftwmrc-profile/herbstluftwm-with-tint)
+* [~/.config/herbstluftwm](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.local/share/herbstluftwmrc-profile/herbstluftwm-with-tint2-panel)
 * [note-about-herbstluftwm](https://github.com/samwhelp/note-about-herbstluftwm/tree/gh-pages/_demo/config/herbstluftwm-config/plan/config/herbstluftwm)
 
 
@@ -211,7 +219,7 @@ For Manjaro (Arch)
 * [~/.local/bin/leftwmrc-ctrl](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.local/bin/leftwmrc-ctrl)
 * [~/.local/bin/leftwmrc-theme-ctrl](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.local/bin/leftwmrc-theme-ctrl)
 * [~/.local/bin/leftwmrc-theme-get](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.local/bin/leftwmrc-theme-get)
-* [~/.config/leftwm](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.local/share/leftwmrc-profile/leftwm-with-tint)
+* [~/.config/leftwm](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.local/share/leftwmrc-profile/leftwm-with-tint2-panel)
 * [note-about-leftwm](https://github.com/samwhelp/note-about-leftwm/tree/gh-pages/_demo/config/leftwm-config/plan/config/leftwm)
 
 
