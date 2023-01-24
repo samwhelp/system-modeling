@@ -187,6 +187,8 @@ For Manjaro (Arch)
 * ~/.config/dconf/user
 * ~/.config/dconf/user.d
 * ~/.config/dconf/user.txt
+* [note-about-dconf](https://github.com/samwhelp/note-about-dconf/tree/gh-pages/_demo)
+* [note-about-gsettings](https://github.com/samwhelp/note-about-gsettings)
 
 
 ## Desktop Environment
@@ -292,6 +294,16 @@ For Manjaro (Arch)
 * [note-about-leftwm](https://github.com/samwhelp/note-about-leftwm/tree/gh-pages/_demo/config/leftwm-config/plan/config/leftwm)
 
 
+### spectrwm
+
+* [~/.config/spectrwm](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.local/share/spectrwmrc-profile/main)
+* [~/.config/spectrwm/spectrwm.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.local/share/spectrwmrc-profile/main/spectrwm.conf)
+* [~/.config/spectrwm/spectrwm.keybind.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.local/share/spectrwmrc-profile/main/spectrwm.keybind.conf)
+
+
+### cwm
+
+* [~/.cwmrc](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.local/share/cwmrc-profile/main/cwmrc)
 
 
 
