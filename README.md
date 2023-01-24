@@ -128,6 +128,11 @@
 * [~/.icons](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.icons)
 
 
+### default
+
+* [~/default/index.theme](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.icons/default/index.theme) (for Default Cursor Theme)
+
+
 ### Gruvbox-Dark
 
 * [Gruvbox-Dark](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.icons/Gruvbox-Dark)
