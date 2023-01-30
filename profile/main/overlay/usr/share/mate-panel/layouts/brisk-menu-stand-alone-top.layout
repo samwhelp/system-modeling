@@ -1,13 +1,14 @@
 [Toplevel main-panel]
 expand=true
-orientation=bottom
+orientation=top
 size=24
 
 
 
 
 [Object main-menu]
-object-type=menu
+object-type=applet
+applet-iid=BriskMenuFactory::BriskMenu
 toplevel-id=main-panel
 position=0
 locked=true
@@ -61,6 +62,8 @@ applet-iid=WnckletFactory::ShowDesktopApplet
 toplevel-id=main-panel
 position=16
 locked=true
+
+
 
 
 [Object window-list]
