@@ -5,7 +5,7 @@
 
 ## 索引
 
-* [Cheat Sheet]()
+* [Cheat Sheet](https://samwhelp.github.io/system-modeling/read/zh_tw/quick-start/cheat-sheet)
 * [操作開端](#操作開端)
 * [常用視窗操作](#常用視窗操作)
 * [切換視窗](#切換視窗)

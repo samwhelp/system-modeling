@@ -10,6 +10,12 @@
 * GitHub / [Supported themes](https://pages.github.com/themes/) / [pages-themes](https://github.com/pages-themes/)
 
 
+## Quick Start
+
+* [Quick Start](https://samwhelp.github.io/system-modeling/read/zh_tw/quick-start)
+* [Cheat Sheet](https://samwhelp.github.io/system-modeling/read/zh_tw/quick-start/cheat-sheet)
+
+
 ## Spec
 
 | Spec | 中文說明 |
