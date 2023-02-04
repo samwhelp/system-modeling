@@ -102,6 +102,7 @@
 | `Alt + Shift + 4` | 視窗移到工作空間 4 (Term) |
 | `Alt + Shift + 5` | 視窗移到工作空間 5 (Misc) |
 
+> 可以對照「[使用「上排數字鍵」相關的操作](https://samwhelp.github.io/system-modeling/read/zh_tw/spec-keybind/with-number-key)」
 
 ## 開啟應用程式
 
