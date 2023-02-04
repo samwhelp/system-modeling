@@ -39,7 +39,9 @@
 
 另外，若不是在「File Manager」操作，
 
-我會按下「`Alt + Shift + a`」或「`Alt + Enter`」，來開啟「Terminal」。
+我會按下「`Alt + Shift + a`」或「`Alt + Enter`」，
+
+來開啟「Terminal」。
 
 
 | 按鍵組合          | 功能           | 執行指令     |
