@@ -214,7 +214,7 @@
 | `Alt + Shift + e` | 開啟文字編輯器 | `mousepad`   |
 | `Alt + Shift + b` | 開啟網頁瀏覽器 | `firefox`    |
 | `Alt + Shift + v` | 開啟音量調整器 | `mate-volume-control`    |
-
+| `Alt + Shift + s` | 開啟控制台 | `mate-control-center`    |
 
 ## 離開系統
 
