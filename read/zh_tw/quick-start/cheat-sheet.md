@@ -112,6 +112,9 @@
 
 > 可以對照「[使用「上排數字鍵」相關的操作](https://samwhelp.github.io/system-modeling/read/zh_tw/spec-keybind/with-number-key)」
 
+> 若不考慮相容性，可以改成「Alt + 數字鍵」來操作「切換工作空間」，改成「Win + 數字鍵」來操作「視窗移到指定工作空間」。這樣「**左手單手**」就能完成操作，更為便利。
+
+
 ## 開啟應用程式
 
 ### 透過「主功能選單」或「執行對話框」
@@ -141,6 +144,7 @@
 | `Alt + Shift + b` | 開啟網頁瀏覽器 | `firefox`    |
 | `Alt + Shift + v` | 開啟音量調整器 | `mate-volume-control`    |
 
+> 關於「firefox」，可以改為「`firefox --new-tab about:blank`」，就會「開啟新Tab」，而非「開啟新視窗」
 
 ## 離開系統
 
