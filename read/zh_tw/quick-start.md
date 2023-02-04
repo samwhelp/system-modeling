@@ -56,7 +56,7 @@
 | `Alt + Enter`     | 開啟 Terminal | `sakura -m`                  |
 
 
-> 這些「按鍵組合」，**大部分**是「**左手單手**」，就能完成，
+> 這些「按鍵組合」，**大部分**是「**左手單手**」，就能完成操作，
 
 > 所以可以「右手」「滑鼠操作」，搭配「左手」「鍵盤按鍵組合」。
 
@@ -226,7 +226,7 @@
 | `Alt + Shift + v` | 開啟音量調整器 | `mate-volume-control`    |
 | `Alt + Shift + s` | 開啟控制台 | `mate-control-center`    |
 
-> 關於「firefox」，可以改為「`firefox --new-tab about:blank`」，就會「開啟新Tab」，而非「開啟新視窗」
+> 關於「firefox」，可以改為「`firefox --new-tab about:blank`」，就會「開啟新頁籤」，而非「開啟新視窗」
 
 ## 離開系統
 

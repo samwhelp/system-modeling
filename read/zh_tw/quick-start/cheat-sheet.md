@@ -144,7 +144,7 @@
 | `Alt + Shift + b` | 開啟網頁瀏覽器 | `firefox`    |
 | `Alt + Shift + v` | 開啟音量調整器 | `mate-volume-control`    |
 
-> 關於「firefox」，可以改為「`firefox --new-tab about:blank`」，就會「開啟新Tab」，而非「開啟新視窗」
+> 關於「firefox」，可以改為「`firefox --new-tab about:blank`」，就會「開啟新頁籤」，而非「開啟新視窗」
 
 ## 離開系統
 
