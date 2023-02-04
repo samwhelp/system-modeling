@@ -253,7 +253,7 @@
 | `Alt + w`        | 隨機更換新的桌面圖片 | `feh --bg-fill --randomize ~/Pictures/Wallpaper` |
 | `Alt + Ctrl + w` | 更換成預設的桌面圖片 | `feh --bg-fill ~/Pictures/Wallpaper/default.jpg` |
 
-> 其他「桌面環境」，可搭配我開發的「[輔助工具](https://samwhelp.github.io/note-about-fzf/read/project/wallpaper-select/)」
+> 其他「桌面環境」，可搭配我開發的「輔助工具 [wallpaper-select](https://samwhelp.github.io/note-about-fzf/read/project/wallpaper-select/)」。
 
 
 ## 螢幕截圖
