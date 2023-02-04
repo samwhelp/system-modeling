@@ -69,11 +69,11 @@
 
 > 一般的「視窗全螢幕」是綁定在「`F11`」
 
-> 我還有設定其他的「按鍵組合」，
+我還有設定其他的「按鍵組合」，
 
-> 請參考我整理的「[便利按鍵綁定](https://samwhelp.github.io/system-modeling/read/zh_tw/spec-keybind-common)」，
+請參考我整理的「[便利按鍵綁定](https://samwhelp.github.io/system-modeling/read/zh_tw/spec-keybind-common)」，
 
-> 或是參考我在各個桌面環境的實作設定。
+或是參考我在各個桌面環境的實作設定。
 
 
 ### 視窗移動
