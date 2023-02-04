@@ -209,6 +209,7 @@
 | `Alt + Shift + g` | 開啟檔案管理器 | `thunar`     |
 | `Alt + Shift + e` | 開啟文字編輯器 | `mousepad`   |
 | `Alt + Shift + b` | 開啟網頁瀏覽器 | `firefox`    |
+| `Alt + Shift + v` | 開啟音量調整器 | `mate-volume-control`    |
 
 
 ## 離開系統
