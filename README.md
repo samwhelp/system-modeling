@@ -276,6 +276,14 @@ For Manjaro (Arch)
 
 ## Window Manager
 
+
+### compiz
+
+* [~/.config/compiz-1/compizconfig/config](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/compiz-1/compizconfig/config)
+* [~/.config/compiz-1/compizconfig/Default.ini](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/compiz-1/compizconfig/Default.ini)
+* [~/.config/compiz-1/compizconfig/profile-switch](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.config/compiz-1/compizconfig/profile-switch)
+
+
 ### openbox
 
 * [~/.local/bin/openboxrc-ctrl](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.local/bin/openboxrc-ctrl)
