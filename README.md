@@ -33,7 +33,7 @@
 * [Appearance](#appearance)
 * [Theme](#theme)
 * [Input Method](#input-method)
-* [Settings](#Settings)
+* [Settings](#settings)
 * [Desktop Environment](#desktop-environment)
 * [Window Manager](#window-manager)
 * [Util](#util)
