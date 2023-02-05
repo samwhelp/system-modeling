@@ -25,6 +25,8 @@
 * [With Number Key](https://samwhelp.github.io/system-modeling/read/en_us/spec-keybind/with-number-key)
 
 
+## Direction Key
+
 | Key   | Key | Key   |
 | ----- | --- | ----- |
 | Up    | k   | grave |
@@ -34,6 +36,8 @@
 
 > grave means ` (~)
 
+
+## Modifier key
 
 | Key   | Alias | Alias | Alias |
 | ----- | ----- | ----- | ----- |
