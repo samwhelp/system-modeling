@@ -33,6 +33,7 @@
 * [Appearance](#appearance)
 * [Theme](#theme)
 * [Input Method](#input-method)
+* [Settings](#Settings)
 * [Desktop Environment](#desktop-environment)
 * [Window Manager](#window-manager)
 * [Util](#util)
@@ -183,8 +184,9 @@ For Manjaro (Arch)
 * [~/.config/fcitx5/conf/classicui.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/fcitx5/conf/classicui.conf)
 
 
+## Settings
 
-## dconf
+### dconf
 
 * [/etc/dconf/profile/user](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/dconf/profile/user)
 * /etc/dconf/db/distro
@@ -198,6 +200,10 @@ For Manjaro (Arch)
 * ~/.config/dconf/user.txt
 * [note-about-dconf](https://github.com/samwhelp/note-about-dconf/tree/gh-pages/_demo)
 * [note-about-gsettings](https://github.com/samwhelp/note-about-gsettings)
+
+### gsettings
+
+* [/usr/share/glib-2.0/schemas/](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/)
 
 
 ## Desktop Environment
