@@ -199,11 +199,12 @@ For Manjaro (Arch)
 * ~/.config/dconf/user.d
 * ~/.config/dconf/user.txt
 * [note-about-dconf](https://github.com/samwhelp/note-about-dconf/tree/gh-pages/_demo)
-* [note-about-gsettings](https://github.com/samwhelp/note-about-gsettings)
+
 
 ### gsettings
 
 * [/usr/share/glib-2.0/schemas/](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/)
+* [note-about-gsettings](https://github.com/samwhelp/note-about-gsettings)
 
 
 ## Desktop Environment
