@@ -5,7 +5,7 @@
 
 ## Subject
 
-* [Quick Start](https://samwhelp.github.io/system-modeling/read/zh_tw/quick-start/)
+* [Quick Start](https://samwhelp.github.io/system-modeling/read/en_us/quick-start/)
 * [Start](#Start)
 * [Window Control](#window-control)
 * [Window Switch](#window-switch)

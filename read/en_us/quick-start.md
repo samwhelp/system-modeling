@@ -5,7 +5,7 @@
 
 ## Subject
 
-* [Cheat Sheet](https://samwhelp.github.io/system-modeling/read/zh_tw/quick-start/cheat-sheet)
+* [Cheat Sheet](https://samwhelp.github.io/system-modeling/read/en_us/quick-start/cheat-sheet)
 * [Start](#Start)
 * [Window Control](#window-control)
 * [Window Switch](#window-switch)
