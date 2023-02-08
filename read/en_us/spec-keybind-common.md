@@ -322,7 +322,7 @@
 | `All + grave` |
 | `All + Esc`   |
 
-> grave 指的是 `
+> grave mean `
 
 | Keybind (Openbox) | Action                |
 | ----------------- | --------------------- |
