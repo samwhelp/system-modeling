@@ -145,11 +145,14 @@
 
 | Keybind           | Action          | Command                      |
 | ----------------- | -------------- | ------------ |
+| `Alt + Enter`     | Launch Terminal     | `sakura -m`  |
+| `Alt + Shift + a` | Launch Terminal     | `sakura -m`  |
 | `Alt + Shift + f` | Launch File Manager | `pcmanfm-qt` |
 | `Alt + Shift + g` | Launch File Manager | `thunar`     |
 | `Alt + Shift + e` | Launch Text Editor | `mousepad`   |
 | `Alt + Shift + b` | Launch Web Browser | `firefox`    |
-| `Alt + Shift + v` | 開啟音量調整器 | `mate-volume-control`    |
+| `Alt + Shift + v` | Launch Volume Control | `mate-volume-control` |
+| `Alt + Shift + s` | Launch Control Center | `mate-control-center` |
 
 > [firefox] can use [`firefox --new-tab about:blank`]
 

@@ -223,12 +223,14 @@
 
 | 按鍵組合          | 功能           | 執行指令     |
 | ----------------- | -------------- | ------------ |
+| `Alt + Enter`     | 開啟 Terminal | `sakura -m`  |
+| `Alt + Shift + a` | 開啟 Terminal | `sakura -m`  |
 | `Alt + Shift + f` | 開啟檔案管理器 | `pcmanfm-qt` |
 | `Alt + Shift + g` | 開啟檔案管理器 | `thunar`     |
 | `Alt + Shift + e` | 開啟文字編輯器 | `mousepad`   |
 | `Alt + Shift + b` | 開啟網頁瀏覽器 | `firefox`    |
-| `Alt + Shift + v` | 開啟音量調整器 | `mate-volume-control`    |
-| `Alt + Shift + s` | 開啟控制台 | `mate-control-center`    |
+| `Alt + Shift + v` | 開啟音量調整器 | `mate-volume-control` |
+| `Alt + Shift + s` | 開啟控制台    | `mate-control-center`  |
 
 > 關於「firefox」，可以改為「`firefox --new-tab about:blank`」，就會「開啟新頁籤」，而非「開啟新視窗」
 
