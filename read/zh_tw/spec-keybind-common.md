@@ -4,7 +4,7 @@
 
 ## 主題
 
-* [入門](https://samwhelp.github.io/system-modeling/read/zh_tw/quick-start)
+* [快速上手指南](https://samwhelp.github.io/system-modeling/read/zh_tw/quick-start)
 * [統整對照](#統整對照)
 * [系統操作](#系統操作)
 * [開啟應用程式](#開啟應用程式)

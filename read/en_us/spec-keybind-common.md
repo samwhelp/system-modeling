@@ -4,6 +4,7 @@
 
 ## Subject
 
+* [Quick Start](https://samwhelp.github.io/system-modeling/read/en_us/quick-start)
 * [Review](#review)
 * [System Control](#system-control)
 * [Launch Application](#launch-application)
