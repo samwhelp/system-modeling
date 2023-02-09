@@ -463,6 +463,11 @@ For Manjaro (Arch)
 * [~/.config/caja/accels](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/caja/accels)
 
 
+### nautilus
+
+* [/usr/share/glib-2.0/schemas/50_nautilus.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_nautilus.gschema.override)
+
+
 
 
 ## Tool / Text Editor
