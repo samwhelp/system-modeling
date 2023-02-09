@@ -458,14 +458,19 @@ For Manjaro (Arch)
 ## Tool / Text Editor
 
 
-### xed
+### sublime-text
 
-* [/usr/share/glib-2.0/schemas/50_xed.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_xed.gschema.override)
+* [~/.config/sublime-text/Packages/User/Preferences.sublime-settings](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/sublime-text/Packages/User/Preferences.sublime-settings)
 
 
 ### mousepad
 
 * [/usr/share/glib-2.0/schemas/50_mousepad.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_mousepad.gschema.override)
+
+
+### xed
+
+* [/usr/share/glib-2.0/schemas/50_xed.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_xed.gschema.override)
 
 
 ### gedit
