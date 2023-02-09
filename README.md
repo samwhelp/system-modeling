@@ -435,6 +435,11 @@ For Manjaro (Arch)
 * [~/.config/lxterminal/lxterminal.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/lxterminal/lxterminal.conf)
 
 
+### tilda
+
+* [.config/tilda/config_0](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/tilda/config_0)
+
+
 
 
 ## Tool / File Manager
