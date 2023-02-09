@@ -420,6 +420,11 @@ For Manjaro (Arch)
 * [~/.config/xfce4/terminal/terminalrc](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/xfce4/terminal/terminalrc)
 
 
+### mate-terminal
+
+* [/etc/dconf/db/distro.d/50_mate-terminal](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/dconf/db/distro.d/50_mate-terminal)
+
+
 ### gnome-terminal
 
 * [/etc/dconf/db/distro.d/50_gnome-terminal](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/dconf/db/distro.d/50_gnome-terminal)
