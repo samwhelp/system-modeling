@@ -150,6 +150,7 @@
 | ----------------- | -------------- | ------------ |
 | `Alt + Enter`     | Launch Terminal     | `sakura -m`  |
 | `Alt + Shift + a` | Launch Terminal     | `sakura -m`  |
+| `Alt + Shift + y` | Dropdown Terminal   | `xfce4-terminal --drop-down` |
 | `Alt + Shift + f` | Launch File Manager | `pcmanfm-qt` |
 | `Alt + Shift + g` | Launch File Manager | `thunar`     |
 | `Alt + Shift + e` | Launch Text Editor | `mousepad`   |
@@ -232,7 +233,7 @@
 | Shift |       |         |       |
 
 * [Alt](https://en.wikipedia.org/wiki/Alt_key)
-* [Super](https://en.wikipedia.org/wiki/Super_key_(keyboard_button)
+* [Super](https://en.wikipedia.org/wiki/Super_key_(keyboard_button))
 * [Win](https://en.wikipedia.org/wiki/Windows_key)
 * [Ctrl](https://en.wikipedia.org/wiki/Control_key)
 * [Shift](https://en.wikipedia.org/wiki/Shift_key)

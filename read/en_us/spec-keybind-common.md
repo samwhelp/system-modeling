@@ -48,7 +48,7 @@
 | Shift |       |         |       |
 
 * [Alt](https://en.wikipedia.org/wiki/Alt_key)
-* [Super](https://en.wikipedia.org/wiki/Super_key_(keyboard_button)
+* [Super](https://en.wikipedia.org/wiki/Super_key_(keyboard_button))
 * [Win](https://en.wikipedia.org/wiki/Windows_key)
 * [Ctrl](https://en.wikipedia.org/wiki/Control_key)
 * [Shift](https://en.wikipedia.org/wiki/Shift_key)

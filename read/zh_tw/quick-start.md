@@ -228,6 +228,7 @@
 | ----------------- | -------------- | ------------ |
 | `Alt + Enter`     | 開啟 Terminal | `sakura -m`  |
 | `Alt + Shift + a` | 開啟 Terminal | `sakura -m`  |
+| `Alt + Shift + y` | 下拉 Terminal | `xfce4-terminal --drop-down` |
 | `Alt + Shift + f` | 開啟檔案管理器 | `pcmanfm-qt` |
 | `Alt + Shift + g` | 開啟檔案管理器 | `thunar`     |
 | `Alt + Shift + e` | 開啟文字編輯器 | `mousepad`   |
