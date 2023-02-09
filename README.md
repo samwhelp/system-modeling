@@ -27,6 +27,13 @@
 | [Mousebind](https://samwhelp.github.io/system-modeling/read/en_us/spec-mousebind-common) | [中文說明](https://samwhelp.github.io/system-modeling/read/zh_tw/spec-mousebind-common) |
 
 
+## Case
+
+| Case | 中文 |
+| --- | --- |
+| [Case](https://samwhelp.github.io/system-modeling/read/en_us/case) | [實作案例](https://samwhelp.github.io/system-modeling/read/zh_tw/case) |
+
+
 ## Overlay
 
 * [Overlay](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay)
