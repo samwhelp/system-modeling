@@ -435,6 +435,8 @@ For Manjaro (Arch)
 * [~/.config/lxterminal/lxterminal.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/lxterminal/lxterminal.conf)
 
 
+
+
 ## Tool / File Manager
 
 ### pcmanfm-qt
@@ -453,6 +455,14 @@ For Manjaro (Arch)
 
 * [~/.config/pcmanfm/default/pcmanfm.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/pcmanfm/default/pcmanfm.conf)
 * [~/.config/libfm/libfm.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/libfm/libfm.conf)
+
+
+### caja
+
+* [/usr/share/glib-2.0/schemas/50_caja.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_caja.gschema.override)
+* [~/.config/caja/accels](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/caja/accels)
+
+
 
 
 ## Tool / Text Editor
