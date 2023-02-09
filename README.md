@@ -483,6 +483,12 @@ For Manjaro (Arch)
 * [/usr/share/glib-2.0/schemas/50_xed.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_xed.gschema.override)
 
 
+### pluma
+
+* [/usr/share/glib-2.0/schemas/50_pluma.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_pluma.gschema.override)
+* [~/.config/pluma/tools/open-terminal-here](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/pluma/tools/open-terminal-here)
+
+
 ### gedit
 
 * [/usr/share/glib-2.0/schemas/50_gedit.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/50_gedit.gschema.override)
