@@ -230,3 +230,7 @@
 | Ctrl  |       | Control |       |
 | Shift |       |         |       |
 
+* [Alt](https://en.wikipedia.org/wiki/Alt_key)
+* [Win](https://en.wikipedia.org/wiki/Super_key_(keyboard_button)
+* [Ctrl](https://en.wikipedia.org/wiki/Control_key)
+* [Shift](https://en.wikipedia.org/wiki/Shift_key)

@@ -308,3 +308,8 @@
 | Win   | Mod4 | Super   | Meta  |
 | Ctrl  |      | Control |       |
 | Shift |      |         |       |
+
+* [轉換鍵](https://zh.wikipedia.org/zh-tw/轉換鍵) ([Alt](https://en.wikipedia.org/wiki/Alt_key))
+* [超級鍵](https://zh.wikipedia.org/zh-tw/超級鍵) ([Win](https://en.wikipedia.org/wiki/Super_key_(keyboard_button)))
+* [控制鍵](https://zh.wikipedia.org/zh-tw/控制鍵) ([Ctrl](https://en.wikipedia.org/wiki/Control_key))
+* [換檔鍵](https://zh.wikipedia.org/zh-tw/換檔鍵) ([Shift](https://en.wikipedia.org/wiki/Shift_key))
