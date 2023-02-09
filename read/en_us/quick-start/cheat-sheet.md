@@ -196,7 +196,7 @@
 | `Alt + w`        | Wallpaper Shuf    | `feh --bg-fill --randomize ~/Pictures/Wallpaper` |
 | `Alt + Ctrl + w` | Wallpaper Default | `feh --bg-fill ~/Pictures/Wallpaper/default.jpg` |
 
-> Helper: [[wallpaper-select](https://samwhelp.github.io/note-about-fzf/read/project/wallpaper-select/)]
+> Helper: [[wallpaper-select](https://github.com/samwhelp/note-about-fzf/tree/gh-pages/_demo/project/wallpaper-select)]
 
 
 ## Screenhot
