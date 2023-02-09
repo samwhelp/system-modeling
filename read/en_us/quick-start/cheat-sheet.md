@@ -41,7 +41,7 @@
 | Keybind           | Action   |
 | ----------------- | -------- |
 | `Win + f` | Window FullScreen |
-| `Win + d` | 切換顯示桌面 |
+| `Win + d` | Toggle Show Desktop |
 
 > [Window FullScreen] Normal Keybind [`F11`]。
 
