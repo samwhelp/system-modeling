@@ -449,6 +449,12 @@ For Manjaro (Arch)
 * [~/.config/Thunar/accels.scm](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/Thunar/accels.scm)
 
 
+### pcmanfm
+
+* [~/.config/pcmanfm/default/pcmanfm.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/pcmanfm/default/pcmanfm.conf)
+* [~/.config/libfm/libfm.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/libfm/libfm.conf)
+
+
 ## Tool / Text Editor
 
 
