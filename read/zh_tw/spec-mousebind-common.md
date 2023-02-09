@@ -4,6 +4,7 @@
 
 ## 主題
 
+* [按鍵操作快速上手指南](https://samwhelp.github.io/system-modeling/read/zh_tw/quick-start)
 * [視窗移動](#視窗移動)
 * [視窗更改大小](#視窗更改大小)
 * [相關連結](#相關連結)
