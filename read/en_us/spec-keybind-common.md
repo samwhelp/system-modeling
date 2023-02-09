@@ -39,12 +39,12 @@
 
 ## Modifier key
 
-| Key   | Alias | Alias | Alias |
-| ----- | ----- | ----- | ----- |
-| Alt   | Mod1  |       |       |
-| Win   | Mod4  | Super | Meta  |
-| Ctrl  |       |       |       |
-| Shift |       |       |       |
+| Key   | Alias | Alias   | Alias |
+| ----- | ----- | ------- | ----- |
+| Alt   | Mod1  |         |       |
+| Win   | Mod4  | Super   | Meta  |
+| Ctrl  |       | Control |       |
+| Shift |       |         |       |
 
 
 ## System Control

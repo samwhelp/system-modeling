@@ -17,6 +17,8 @@
 * [Monitor Brightness](#monitor-brightness)
 * [Wallpaper](#wallpaper)
 * [Screenhot](#screenhot)
+* [Direction Key](#direction-key)
+* [Modifier key](#modifier-key)
 
 
 ## Start
@@ -205,4 +207,25 @@
 | ------------- | ------------------------ | ---------- |
 | `Print`       | Screenshot               | `scrot`    |
 | `Alt + Print` | Screenshot Selected Area | `scrot -s` |
+
+## Direction Key
+
+| Key   | Key | Key   |
+| ----- | --- | ----- |
+| Up    | k   | grave |
+| Down  | j   | Tab   |
+| Left  | h   | a     |
+| Right | l   | s     |
+
+> grave means ` (~)
+
+
+## Modifier key
+
+| Key   | Alias | Alias   | Alias |
+| ----- | ----- | ------- | ----- |
+| Alt   | Mod1  |         |       |
+| Win   | Mod4  | Super   | Meta  |
+| Ctrl  |       | Control |       |
+| Shift |       |         |       |
 
