@@ -21,7 +21,9 @@
 
 ## 操作開端
 
-通常我會透過「`Alt + Shift + f`」 開啟我慣用的「File Manager」，
+通常我會透過「`Alt + Shift + f`」 或是「`Alt + Shift + g`」
+
+開啟我慣用的「File Manager」，
 
 然後我會在「File Manager」切換到「要操作的資料夾」，
 
@@ -53,8 +55,9 @@
 | 按鍵組合          | 功能           | 執行指令     |
 | ----------------- | -------------- | ------------ |
 | `Alt + Shift + f` | 開啟檔案管理器 | `pcmanfm-qt` |
-| `Alt + Shift + a` | 開啟 Terminal | `sakura -m`                  |
-| `Alt + Enter`     | 開啟 Terminal | `sakura -m`                  |
+| `Alt + Shift + g` | 開啟檔案管理器 | `thunar`     |
+| `Alt + Shift + a` | 開啟 Terminal | `sakura -m`  |
+| `Alt + Enter`     | 開啟 Terminal | `sakura -m`  |
 
 
 > 這些「按鍵組合」，**大部分**是「**左手單手**」，就能完成操作，

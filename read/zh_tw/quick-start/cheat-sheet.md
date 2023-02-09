@@ -24,8 +24,9 @@
 | 按鍵組合          | 功能           | 執行指令     |
 | ----------------- | -------------- | ------------ |
 | `Alt + Shift + f` | 開啟檔案管理器 | `pcmanfm-qt` |
-| `Alt + Shift + a` | 開啟 Terminal | `sakura -m`                  |
-| `Alt + Enter`     | 開啟 Terminal | `sakura -m`                  |
+| `Alt + Shift + g` | 開啟檔案管理器 | `thunar`     |
+| `Alt + Shift + a` | 開啟 Terminal | `sakura -m`  |
+| `Alt + Enter`     | 開啟 Terminal | `sakura -m`  |
 
 
 ## 常用視窗操作
