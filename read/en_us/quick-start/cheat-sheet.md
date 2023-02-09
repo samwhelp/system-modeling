@@ -6,7 +6,7 @@
 ## Subject
 
 * [Quick Start](https://samwhelp.github.io/system-modeling/read/en_us/quick-start/)
-* [Start](#Start)
+* [Start](#start)
 * [Window Control](#window-control)
 * [Window Switch](#window-switch)
 * [Workspace Switch](#workspace-switch)
@@ -14,6 +14,7 @@
 * [System Exit](#system-exit)
 * [Configuration Reload](#configuration reload)
 * [Volume Control](#volume-control)
+* [Monitor Brightness](#monitor-brightness)
 * [Wallpaper](#wallpaper)
 * [Screenhot](#screenhot)
 
@@ -175,6 +176,13 @@
 | `Alt + Shift + <` | Volume Decrease        | `amixer -q -D pulse sset Master 5%- unmute` |
 | `Alt + Shift + >` | Volume Increase        | `amixer -q -D pulse sset Master 5%+ unmute` |
 
+
+## Monitor Brightness
+
+| Keybind           | Action                     |
+| ----------------- | -------------------------- |
+| `Alt + Shift + [` | Decrease Screen Brightness |
+| `Alt + Shift + ]` | Increase Screen Brightness |
 
 
 ## Wallpaper

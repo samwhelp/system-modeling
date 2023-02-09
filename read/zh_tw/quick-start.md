@@ -14,6 +14,7 @@
 * [離開系統](#離開系統)
 * [重新套用設定](#重新套用設定)
 * [音量操作](#音量操作)
+* [螢幕亮度](#螢幕亮度)
 * [桌面圖片](#桌面圖片)
 * [螢幕截圖](#螢幕截圖)
 
@@ -250,6 +251,14 @@
 | `Alt + m`         | 音量切換成靜音   | `amixer -q -D pulse sset Master Toggle`     |
 | `Alt + Shift + <` | 減小音量         | `amixer -q -D pulse sset Master 5%- unmute` |
 | `Alt + Shift + >` | 增加音量         | `amixer -q -D pulse sset Master 5%+ unmute` |
+
+
+## 螢幕亮度
+
+| 按鍵組合          | 功能             |
+| ----------------- | ---------------- |
+| `Alt + Shift + [` | 減少螢幕亮度         |
+| `Alt + Shift + ]` | 增加螢幕亮度         |
 
 
 ## 桌面圖片
