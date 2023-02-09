@@ -430,6 +430,11 @@ For Manjaro (Arch)
 * [/etc/dconf/db/distro.d/50_gnome-terminal](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/dconf/db/distro.d/50_gnome-terminal)
 
 
+### lxterminal
+
+* [~/.config/lxterminal/lxterminal.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/lxterminal/lxterminal.conf)
+
+
 ## Tool / File Manager
 
 ### pcmanfm-qt
