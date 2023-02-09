@@ -21,11 +21,12 @@
 
 ## Start
 
-| Keybind           | Action          | Command                      |
-| ----------------- | -------------- | ------------ |
+| Keybind           | Action              | Command      |
+| ----------------- | ------------------- | ------------ |
 | `Alt + Shift + f` | Launch File Manager | `pcmanfm-qt` |
-| `Alt + Shift + a` | Launch Terminal | `sakura -m`                  |
-| `Alt + Enter`     | Launch Terminal | `sakura -m`                  |
+| `Alt + Shift + g` | Launch File Manager | `thunar`     |
+| `Alt + Shift + a` | Launch Terminal     | `sakura -m`  |
+| `Alt + Enter`     | Launch Terminal     | `sakura -m`  |
 
 
 ## Window Control
