@@ -49,8 +49,8 @@
 * Tool / [Launcher](#tool--launcher)
 * Tool / [Terminal](#tool--terminal)
 * Tool / [File Manager](#tool--file-manager)
-* Tool / [Image Viewer](#tool--image-viewer)
 * Tool / [Text Editor](#tool--text-editor)
+* Tool / [Image Viewer](#tool--image-viewer)
 * Tool / [Media Player](#tool--media-player)
 
 
