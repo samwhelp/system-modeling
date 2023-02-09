@@ -113,7 +113,7 @@
 | `Alt + Shift + 5` | Window Move to Workspace 5 (Misc) |
 
 
-> Further Reading [[With Number Key](https://samwhelp.github.io/system-modeling/read/zh_tw/spec-keybind/with-number-key)]
+> Further Reading [[With Number Key](https://samwhelp.github.io/system-modeling/read/en_us/spec-keybind/with-number-key)]
 
 > or [Alt + number] to [Switch Workspace]
 
