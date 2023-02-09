@@ -20,6 +20,8 @@
 * [方向鍵](#方向鍵)
 * [修飾鍵](#修飾鍵)
 * [更多說明](https://samwhelp.github.io/system-modeling/read/zh_tw/spec-keybind-common)
+* [實作案例](https://samwhelp.github.io/system-modeling/read/zh_tw/case)
+
 
 ## 操作開端
 
