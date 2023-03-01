@@ -36,6 +36,7 @@
 <?php include_once(__DIR__ . '/Keybind/WindowTilingMoveCorner.php'); ?>
 <?php include_once(__DIR__ . '/Keybind/WindowMoveToCenter.php'); ?>
 
+<?php include_once(__DIR__ . '/Keybind/ApplicationLaunchRunDialog.php'); ?>
 <?php include_once(__DIR__ . '/Keybind/ApplicationLaunchRofi.php'); ?>
 <?php include_once(__DIR__ . '/Keybind/ApplicationLaunchTerminal.php'); ?>
 <?php include_once(__DIR__ . '/Keybind/ApplicationLaunchFavorite.php'); ?>
@@ -45,6 +46,8 @@
 <?php //include_once(__DIR__ . '/Keybind/ApplicationFocusFavorite.php'); ?>
 
 <?php include_once(__DIR__ . '/Keybind/Volume.php'); ?>
+
+<?php include_once(__DIR__ . '/Keybind/MonitorBrightness.php'); ?>
 
 <?php include_once(__DIR__ . '/Keybind/Screenshot.php'); ?>
 

@@ -981,6 +981,16 @@ h l
 		</action>
 	</keybind>
 	
+	<keybind key="W-grave">
+		<action name="PreviousWindow">
+			<finalactions>
+				<action name="Focus"/>
+				<action name="Raise"/>
+				<action name="Unshade"/>
+			</finalactions>
+		</action>
+	</keybind>
+
 	<keybind key="W-S-Tab">
 		<action name="PreviousWindow">
 			<finalactions>
@@ -1010,6 +1020,16 @@ h l
 	<!-- Alt + Tab //-->
 	<keybind key="A-Tab">
 		<action name="NextWindow">
+			<finalactions>
+				<action name="Focus"/>
+				<action name="Raise"/>
+				<action name="Unshade"/>
+			</finalactions>
+		</action>
+	</keybind>
+
+	<keybind key="A-grave">
+		<action name="PreviousWindow">
 			<finalactions>
 				<action name="Focus"/>
 				<action name="Raise"/>
@@ -1804,11 +1824,13 @@ h l
 		<action name="Execute">
 			<startupnotify>
 				<enabled>true</enabled>
-				<name>RofiShowDrun</name>
+				<name>RunDialog</name>
 			</startupnotify>
 			<command>rofi -show drun -show-icons</command>
 		</action>
 	</keybind>
+
+
 
 
 	<keybind key="A-S-d">
@@ -2077,6 +2099,50 @@ h l
 
 
 
+	<keybind key="XF86MonBrightnessDown">
+		<action name="Execute">
+			<command>brightnessctl set 5%-</command>
+		</action>
+	</keybind>
+
+	<keybind key="XF86MonBrightnessUp">
+		<action name="Execute">
+			<command>brightnessctl set +5%</command>
+		</action>
+	</keybind>
+
+
+
+
+	<keybind key="A-S-bracketleft">
+		<action name="Execute">
+			<command>brightnessctl set 5%-</command>
+		</action>
+	</keybind>
+
+	<keybind key="A-S-bracketright">
+		<action name="Execute">
+			<command>brightnessctl set +5%</command>
+		</action>
+	</keybind>
+
+
+	<keybind key="A-C-bracketleft">
+		<action name="Execute">
+			<command>brightnessctl set 1%-</command>
+		</action>
+	</keybind>
+
+	<keybind key="A-C-bracketright">
+		<action name="Execute">
+			<command>brightnessctl set +1%</command>
+		</action>
+	</keybind>
+
+
+
+
+
 	<!-- Take a screenshot of the current window with scrot when Alt+Print are pressed -->
 	<keybind key="A-Print">
 		<action name="Execute">
@@ -2190,7 +2256,7 @@ sudo cp clicksnap /usr/local/bin/clicksnap
 		//-->
 
 		<!--
-		<mousebind action="Press" button="A-S-Left">
+		<mousebind action="Press" button="W-S-Left">
 			<action name="UnmaximizeFull"/>
 			<action name="Execute">
 				<command>deskgrid</command>
