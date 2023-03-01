@@ -239,20 +239,47 @@
 		<keybind key="A-Right">
 			<action name="MoveToEdge" direction="right" />
 		</keybind>
+		<keybind key="XF86_AudioMute">
+			<action name="Execute" command="amixer -q -D pulse sset Master Toggle" />
+		</keybind>
 		<keybind key="XF86_AudioLowerVolume">
-			<action name="Execute" command="amixer sset Master 5%-" />
+			<action name="Execute" command="amixer -q -D pulse sset Master 5%- unmute" />
 		</keybind>
 		<keybind key="XF86_AudioRaiseVolume">
-			<action name="Execute" command="amixer sset Master 5%+" />
+			<action name="Execute" command="amixer -q -D pulse sset Master 5%+ unmute" />
 		</keybind>
-		<keybind key="XF86_AudioMute">
-			<action name="Execute" command="amixer sset Master toggle" />
+		<keybind key="A-m">
+			<action name="Execute" command="amixer -q -D pulse sset Master toggle" />
 		</keybind>
-		<keybind key="XF86_MonBrightnessUp">
-			<action name="Execute" command="brightnessctl set +10%" />
+		<keybind key="W-S-comma">
+			<action name="Execute" command="amixer -q -D pulse sset Master 5%- unmute" />
+		</keybind>
+		<keybind key="W-S-period">
+			<action name="Execute" command="amixer -q -D pulse sset Master 5%+ unmute" />
+		</keybind>
+		<keybind key="A-C-comma">
+			<action name="Execute" command="amixer -q -D pulse sset Master 1%- unmute" />
+		</keybind>
+		<keybind key="A-C-period">
+			<action name="Execute" command="amixer -q -D pulse sset Master 1%+ unmute" />
 		</keybind>
 		<keybind key="XF86_MonBrightnessDown">
-			<action name="Execute" command="brightnessctl set 10%-" />
+			<action name="Execute" command="brightnessctl set 5%-" />
+		</keybind>
+		<keybind key="XF86_MonBrightnessUp">
+			<action name="Execute" command="brightnessctl set +5%" />
+		</keybind>
+		<keybind key="A-S-bracketleft">
+			<action name="Execute" command="brightnessctl set 5%-" />
+		</keybind>
+		<keybind key="A-S-bracketright">
+			<action name="Execute" command="brightnessctl set +5%" />
+		</keybind>
+		<keybind key="A-C-bracketleft">
+			<action name="Execute" command="brightnessctl set 1%-" />
+		</keybind>
+		<keybind key="A-C-bracketright">
+			<action name="Execute" command="brightnessctl set +1%" />
 		</keybind>
 		<!-- SnapToRegion via W-Numpad -->
 		<!--
