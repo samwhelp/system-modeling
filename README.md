@@ -48,6 +48,7 @@
 * [Settings](#settings)
 * [Desktop Environment](#desktop-environment)
 * [Window Manager](#window-manager)
+* [Wayland](#wayland)
 * [Util](#util)
 * Util / [Grub](#util--grub)
 * Util / [Wallpaper](#util--wallpaper)
@@ -351,6 +352,32 @@ For Manjaro (Arch)
 ### cwm
 
 * [~/.cwmrc](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.local/share/cwmrc-profile/main/cwmrc)
+
+
+
+
+## Wayland
+
+
+### labwc
+
+* [~/.config/labwc](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.config/labwc)
+* [note-about-labwc](https://github.com/samwhelp/note-about-labwc/tree/gh-pages/_demo/config/labwc-config/main)
+
+
+| Path | Note |
+| --- | --- |
+| [~/.config/labwc/rc.xml](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/labwc/rc.xml) | labwc rc |
+| [~/.config/labwc/menu.xml](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/labwc/menu.xml) | labwc menu |
+| [~/.config/labwc/environment](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/labwc/environment) | labwc environment |
+| [~/.config/labwc/autostart](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/labwc/autostart) | labwc autostart |
+
+
+### wayfire
+
+* [~/.config/wayfire](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/wayfire.ini)
+* [~/.config/wf-shell.ini](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/wf-shell.ini)
+
 
 
 
