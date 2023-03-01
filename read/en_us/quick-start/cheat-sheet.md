@@ -196,10 +196,10 @@
 
 ## Monitor Brightness
 
-| Keybind           | Action                     |
-| ----------------- | -------------------------- |
-| `Alt + Shift + [` | Decrease Screen Brightness |
-| `Alt + Shift + ]` | Increase Screen Brightness |
+| Keybind           | Action                     | Command                 |
+| ----------------- | -------------------------- | ----------------------- |
+| `Alt + Shift + [` | Decrease Screen Brightness | `brightnessctl set 5%-` |
+| `Alt + Shift + ]` | Increase Screen Brightness | `brightnessctl set +5%` |
 
 
 ## Wallpaper
