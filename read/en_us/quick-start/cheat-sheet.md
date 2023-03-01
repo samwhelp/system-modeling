@@ -52,6 +52,13 @@
 > [Window FullScreen] Normal Keybind [`F11`]。
 
 
+### Client Menu
+
+| Keybind           | Action   |
+| ----------------- | -------- |
+| `Alt + Space` | Toggle Show [Client Menu] |
+
+
 ### Window Move
 
 | Mousebind                 | Action      |
