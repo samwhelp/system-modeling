@@ -17,6 +17,7 @@
 * [Monitor Brightness](#monitor-brightness)
 * [Wallpaper](#wallpaper)
 * [Screenhot](#screenhot)
+* [Input Method](#input-method)
 * [Direction Key](#direction-key)
 * [Modifier key](#modifier-key)
 * [More](https://samwhelp.github.io/system-modeling/read/en_us/spec-keybind-common)
@@ -217,6 +218,14 @@
 | ------------- | ------------------------ | ---------- |
 | `Print`       | Screenshot               | `scrot`    |
 | `Alt + Print` | Screenshot Selected Area | `scrot -s` |
+
+
+## Input Method
+
+| Keybind        | Action              |
+| -------------- | ------------------- |
+| `Ctrl + Space` | Switch Input Method |
+
 
 ## Direction Key
 
