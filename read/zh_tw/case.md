@@ -52,5 +52,14 @@
 | [pekwm](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.local/share/pekwmrc-profile/main) |
 
 
+## Wayland
+
+| 實作案例 |
+| --- |
+| [Sway](https://samwhelp.github.io/note-about-sway/) |
+| [Ubuntu Sway](https://samwhelp.github.io/note-about-ubuntu-sway/read/config/ubuntu-sway-adjustment/keybind.html) |
+| [Labwc](https://samwhelp.github.io/note-about-labwc/) |
+| [Wayfire](https://samwhelp.github.io/note-about-wayfire/) |
+
 
 > [更多筆記](https://samwhelp.github.io/book/)

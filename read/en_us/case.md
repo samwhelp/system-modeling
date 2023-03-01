@@ -50,3 +50,16 @@
 | [fluxbox](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.local/share/fluxboxrc-profile/main) |
 | [icewm](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.local/share/icewmrc-profile/start/keys) |
 | [pekwm](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.local/share/pekwmrc-profile/main) |
+
+
+
+
+## Wayland
+
+| Case |
+| --- |
+| [Sway](https://samwhelp.github.io/note-about-sway/) |
+| [Ubuntu Sway](https://samwhelp.github.io/note-about-ubuntu-sway/read/config/ubuntu-sway-adjustment/keybind.html) |
+| [Labwc](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/skel/.config/labwc) |
+| [Wayfire](https://samwhelp.github.io/note-about-wayfire/) |
+
