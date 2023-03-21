@@ -1,8 +1,8 @@
 
 
 [org.gnome.shell.keybindings]
-toggle-application-view=['<Super>Tab', '<Alt>j', '<Alt>Down']
-toggle-overview=['<Super>grave', '<Alt>k', '<Alt>Up']
+toggle-application-view=['<Super>grave', '<Alt>k', '<Alt>Up']
+toggle-overview=['<Super>Tab', '<Alt>j', '<Alt>Down']
 
 
 [org.gnome.desktop.wm.keybindings]
@@ -72,3 +72,9 @@ toggle-tiled-right=['<Super>Right']
 
 [org.gnome.mutter.wayland.keybindings]
 restore-shortcuts=['']
+
+
+
+
+[org.gnome.settings-daemon.plugins.media-keys]
+screensaver=['<Control><Alt>x']
