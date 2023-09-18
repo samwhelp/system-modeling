@@ -12,6 +12,14 @@
 * GitHub / [Supported themes](https://pages.github.com/themes/) / [pages-themes](https://github.com/pages-themes/)
 
 
+## Intro
+
+| Intro | 中文說明 |
+| --- | --- |
+| [Intro](https://samwhelp.github.io/system-modeling/read/en_us/intro)  | [中文說明](https://samwhelp.github.io/system-modeling/read/zh_tw/intro) |
+| [Cheat Sheet](https://samwhelp.github.io/system-modeling/read/en_us/intro/cheat-sheet) | [中文說明](https://samwhelp.github.io/system-modeling/read/zh_tw/intro/cheat-sheet) |
+
+
 ## Quick Start
 
 | Quick Start | 中文說明 |

@@ -42,7 +42,7 @@
 | `Win + q`         | Close Window |
 | `Win + w` | Window Maximize |
 
-> [Close Window] Normal Keybind [`Alt + F4`]。
+> [Close Window] Normal Keybind [`Alt + F4`]
 
 
 | Keybind           | Action   |
@@ -50,7 +50,7 @@
 | `Win + f` | Window FullScreen |
 | `Win + d` | Toggle Show Desktop |
 
-> [Window FullScreen] Normal Keybind [`F11`]。
+> [Window FullScreen] Normal Keybind [`F11`]
 
 
 ### Client Menu
