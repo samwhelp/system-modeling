@@ -29,3 +29,5 @@
 
 
 ## Next
+
+* [Quick Start](https://samwhelp.github.io/system-modeling/read/en_us/quick-start)

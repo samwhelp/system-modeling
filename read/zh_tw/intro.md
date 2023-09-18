@@ -29,3 +29,5 @@
 
 
 ## 接下來
+
+* [桌面環境按鍵操作快速上手指南](https://samwhelp.github.io/system-modeling/read/zh_tw/quick-start)
