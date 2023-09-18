@@ -8,6 +8,7 @@
 | Case |
 | --- |
 | Ezarcher Adjustment / [ISO Build System](https://github.com/samwhelp/ezarcher-adjustment/tree/main/project/ezarcher-adjustment-system)
+| Eznixos Adjustment / [ISO Build System](https://github.com/samwhelp/eznixos-adjustment-iso-profile)
 
 
 ## Wayland
