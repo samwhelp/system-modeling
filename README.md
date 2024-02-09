@@ -1,7 +1,7 @@
 # system-modeling
 
-* [system-modeling](https://samwhelp.github.io/system-modeling/) ([GitHub](https://github.com/samwhelp/system-modeling))
-* samwhelp / [note](https://samwhelp.github.io/book/)
+* [System Modeling](https://samwhelp.github.io/system-modeling/) ([GitHub](https://github.com/samwhelp/system-modeling))
+* Samwhelp / [Note](https://samwhelp.github.io/book/)
 * GitHub / [Supported themes](https://pages.github.com/themes/) / [pages-themes](https://github.com/pages-themes/)
 
 
