@@ -13,11 +13,12 @@
 
 ## Window Frame
 
-| Mousebind                     | Action            |
-| ----------------------------- | ----------------- |
-| `Win + [Mouse Left Drag]`     | Move Window       |
-| `Win + [Mouse Right Drag]`    | Resize Window     |
-| `Win + [Mouse Middle Click]`  | Show Client Menu  |
+| Mousebind                      | Action                      |
+| ------------------------------ | --------------------------- |
+| `Win + [Mouse Left Drag]`      | Move Window                 |
+| `Win + [Mouse Right Drag]`     | Resize Window               |
+| `Win + [Mouse Middle Click]`   | Show Client Menu            |
+| `Alt + [Mouse Middle Click]`   | Window Lower and UnFocus    |
 
 
 ## Window Titlebar
