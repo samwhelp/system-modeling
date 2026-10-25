@@ -104,6 +104,7 @@ or choose the file you want to install.
 * [default cursor](#default-cursor)
 * [gtk](#gtk)
 * [qt](#qt)
+* [kvantum](#kvantum)
 * [xsettingsd](#xsettingsd)
 * [xfce](#xfce)
 
@@ -112,6 +113,7 @@ or choose the file you want to install.
 
 | Config File Path |
 | ---------------- |
+| `/usr/share/icons/default/index.theme` |
 | [~/.icons/default/index.theme](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.icons/default/index.theme) |
 
 
@@ -144,6 +146,13 @@ or choose the file you want to install.
 | ---------------- |
 | [~/.config/qt5ct/qt5ct.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/qt5ct/qt5ct.conf) |
 | [~/.config/qt6ct/qt6ct.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/qt6ct/qt6ct.conf) |
+
+
+### kvantum
+
+| Config File Path |
+| ---------------- |
+| [~/.config/Kvantum/kvantum.kvconfig](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/Kvantum/kvantum.kvconfig) |
 
 
 ### xsettingsd
