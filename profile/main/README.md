@@ -58,8 +58,8 @@ or choose the file you want to install.
 
 | Config File Path | Symbolic Link |
 | ---------------- | ------------- |
-| [/etc/default/locale](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/default/locale) |
-| [/etc/locale.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/locale.conf) |
+| [/etc/default/locale](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/default/locale) | `/etc/locale.conf` |
+| [/etc/locale.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/locale.conf) |  |
 
 
 ## timezone
