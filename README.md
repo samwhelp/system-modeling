@@ -23,7 +23,7 @@
 
 | Profile |
 | ------- |
-| [main](profile/main) |
+| [main](https://github.com/samwhelp/system-modeling/tree/main/profile/main) |
 
 
 
