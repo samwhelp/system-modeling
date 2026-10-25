@@ -42,7 +42,7 @@
 
 | ISO Profile |
 | ----------- |
-| [linux-iso-builder-template](https://github.com/samwhelp/linux-iso-builder-template) |
+| [linux-iso-builder-template](https://samwhelp.github.io/linux-iso-builder-template/) |
 
 
 
