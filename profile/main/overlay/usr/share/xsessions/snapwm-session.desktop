@@ -1,6 +1,0 @@
-[Desktop Entry]
-Name=Snapwm
-Comment=Snapwm
-Exec=/usr/share/snapwm/xsessions/snapwm-session
-Icon=dwm
-Type=XSession

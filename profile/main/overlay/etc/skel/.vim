@@ -1,1 +1,0 @@
-.local/share/vimrc-profile/default
