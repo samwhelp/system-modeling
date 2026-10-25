@@ -26,9 +26,9 @@
 
 ## Profile
 
-| Profile |
-| ------- |
-| [main](profile/main) |
+| Profile | Overlay |
+| ------- | ------- |
+| [main](https://github.com/samwhelp/system-modeling/tree/main/profile/main) | [rootfs](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay) |
 
 
 
