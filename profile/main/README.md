@@ -304,7 +304,8 @@ or choose the file you want to install.
 
 | Config File Path |
 | ---------------- |
-| [~/.config/xfce4/terminal/terminalrc](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/xfce4/terminal/terminalrc) |
+| [~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-terminal.xml) |
+| [~/.config/xfce4/terminal/accels.scm](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/xfce4/terminal/accels.scm) |
 
 
 
