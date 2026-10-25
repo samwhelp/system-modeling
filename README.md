@@ -57,7 +57,7 @@
 | Link | GitHub |
 | ---- | ------ |
 | [Debian Adjustment](https://samwhelp.github.io/debian-adjustment/) | [GitHub](https://github.com/samwhelp/debian-adjustment) |
-| [Ubuntu Adjustment](https://samwhelp.github.io/ubutu-adjustment/) | [GitHub](https://github.com/samwhelp/ubutu-adjustment) |
+| [Ubuntu Adjustment](https://samwhelp.github.io/ubuntu-adjustment/) | [GitHub](https://github.com/samwhelp/ubuntu-adjustment) |
 | [Fedora Adjustment](https://samwhelp.github.io/fedora-adjustment/) | [GitHub](https://github.com/samwhelp/fedora-adjustment) |
 | [Archlinux Adjustment](https://samwhelp.github.io/archlinux-adjustment/) | [GitHub](https://github.com/samwhelp/archlinux-adjustment) |
 | [Voidlinux Adjustment](https://samwhelp.github.io/voidlinux-adjustment/) | [GitHub](https://github.com/samwhelp/voidlinux-adjustment) |
