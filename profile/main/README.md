@@ -48,6 +48,7 @@ or choose the file you want to install.
 ## Environment
 
 * [locale](#locale)
+* [timezone](#timezone)
 * [font match order](#font-match-order)
 * [xdg-mime-applications](#xdg-mime-applications)
 * [xdg-user-dir-templates](#xdg-user-dir-templates)
@@ -58,6 +59,14 @@ or choose the file you want to install.
 | Config File Path |
 | ---------------- |
 | [/etc/default/locale](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/default/locale) |
+
+
+## timezone
+
+| Config File Path | Symbolic Link |
+| ---------------- | ------------- |
+| [/etc/localtime](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/localtime) | `/usr/share/zoneinfo/Asia/Taipei` |
+| [/etc/timezone](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/timezone) |  |
 
 
 ### font match order
