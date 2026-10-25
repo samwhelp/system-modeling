@@ -1,0 +1,66 @@
+
+
+[org.mate.applications-browser]
+exec='firefox'
+
+
+
+
+##
+## ## gsettings
+##
+##
+## ``` sh
+## gsettings set org.gnome.desktop.default-applications.terminal exec "'mate-terminal'"
+##
+## gsettings set org.gnome.desktop.default-applications.terminal exec-arg ''
+## ```
+##
+
+
+
+##
+## ## compile gschema
+##
+##
+## ```
+## sudo install -Dm644 50_mate-favorite-apps.gschema.override /usr/share/glib-2.0/schemas/50_mate-favorite-apps.gschema.override
+##
+## sudo cp -rfT . /usr/share/glib-2.0/schemas/
+##
+## sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
+## ```
+##
+
+
+
+
+##
+## ## Sample
+##
+
+#[org.gnome.desktop.default-applications.terminal]
+#exec='xdg-terminal-exec'
+#exec-arg='--'
+
+
+
+
+##
+## ## Use Case / Terminal
+##
+
+
+[org.mate.applications-terminal]
+exec='mate-terminal'
+exec-arg=''
+
+
+[org.gnome.desktop.default-applications.terminal]
+exec='mate-terminal'
+exec-arg=''
+
+
+[org.cinnamon.desktop.default-applications.terminal]
+exec='mate-terminal'
+exec-arg=''

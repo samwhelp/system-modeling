@@ -1,0 +1,9 @@
+
+
+[org.gnome.desktop.wm.preferences]
+num-workspaces=5
+workspace-names=['File', 'Edit', 'Web', 'Term', 'Misc']
+
+
+[org.gnome.mutter:GNOME]
+dynamic-workspaces=false

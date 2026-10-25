@@ -1,0 +1,22 @@
+{
+	"KPackageStructure": "Plasma/LayoutTemplate",
+	"KPlugin": {
+		"Authors": [
+			{
+				"Email": "samwhelp@users.noreply.github.com",
+				"Name": "samwhelp"
+			}
+		],
+		"Category": "",
+		"EnabledByDefault": true,
+		"Id": "base.desktop.TopPanel-Advance",
+		"License": "MIT",
+		"Name": "Top Panel / Advance",
+		"Version": "2.0",
+		"Website": "https://github.com/samwhelp/kde-plasma-adjustment"
+	},
+	"X-Plasma-ContainmentCategories": [
+		"panel"
+	],
+	"X-Plasma-Shell": "plasmashell"
+}

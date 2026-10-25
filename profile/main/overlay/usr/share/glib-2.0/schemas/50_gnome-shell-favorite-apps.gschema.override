@@ -1,0 +1,72 @@
+
+
+[org.gnome.shell]
+#favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.TextEditor.desktop', 'firefox.desktop', 'org.gnome.Console.desktop', 'org.gnome.Settings.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Extensions.desktop', 'org.gnome.Software.desktop', 'toggle-show-desktop.desktop']
+favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.gedit.desktop', 'firefox.desktop', 'sakura.desktop', 'org.gnome.Settings.desktop', 'org.gnome.tweaks.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'org.gnome.Software.desktop']
+
+
+
+
+
+
+
+
+
+##
+## ## gsettings
+##
+##
+## ``` sh
+## gsettings set org.gnome.desktop.default-applications.terminal exec "'sakura'"
+##
+## gsettings set org.gnome.desktop.default-applications.terminal exec-arg ''
+## ```
+##
+
+
+
+##
+## ## compile gschema
+##
+##
+## ```
+## sudo install -Dm644 50_mate-favorite-apps.gschema.override /usr/share/glib-2.0/schemas/50_mate-favorite-apps.gschema.override
+##
+## sudo cp -rfT . /usr/share/glib-2.0/schemas/
+##
+## sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
+## ```
+##
+
+
+
+
+##
+## ## Sample
+##
+
+#[org.gnome.desktop.default-applications.terminal]
+#exec='xdg-terminal-exec'
+#exec-arg='--'
+
+
+
+
+##
+## ## Use Case / Terminal
+##
+
+
+[org.mate.applications-terminal]
+exec='xfce4-terminal'
+exec-arg=''
+
+
+[org.gnome.desktop.default-applications.terminal]
+exec='xfce4-terminal'
+exec-arg=''
+
+
+[org.cinnamon.desktop.default-applications.terminal]
+exec='xfce4-terminal'
+exec-arg=''
