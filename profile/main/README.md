@@ -2,8 +2,9 @@
 
 # System Modeling / Profile / Main
 
-
-* [rootfs](overlay)
+| Overlay |
+| ------- |
+| [rootfs](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay) |
 
 
 run to view the structure of the directory overlay.
