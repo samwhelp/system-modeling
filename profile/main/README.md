@@ -414,6 +414,7 @@ or choose the file you want to install.
 ## Tool / Text Editor
 
 * [mousepad](#mousepad)
+* [featherpad](#featherpad)
 
 
 ### mousepad
@@ -421,6 +422,15 @@ or choose the file you want to install.
 | Config File Path |
 | ---------------- |
 | [/usr/share/glib-2.0/schemas/60_mousepad.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/60_mousepad.gschema.override) |
+
+
+### featherpad
+
+| Config File Path |
+| ---------------- |
+| [~/.config/featherpad/fp.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/featherpad/fp.conf) |
+| [~/.config/featherpad/fp_dark_syntax_colors.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/featherpad/fp_dark_syntax_colors.conf) |
+| [~/.config/featherpad/fp_light_syntax_colors.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/featherpad/fp_light_syntax_colors.conf) |
 
 
 ## Tool / Image Viewer
