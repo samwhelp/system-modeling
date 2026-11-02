@@ -291,6 +291,8 @@ or choose the file you want to install.
 
 * [sakura](#sakura)
 * [xfce4-terminal](#xfce4-terminal)
+* [lxterminal](#lxterminal)
+* [qterminal](#qterminal)
 
 
 ### sakura
@@ -308,6 +310,18 @@ or choose the file you want to install.
 | [~/.config/xfce4/terminal/accels.scm](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/xfce4/terminal/accels.scm) |
 
 
+## lxterminal
+
+| Config File Path |
+| ---------------- |
+| [~/.config/lxterminal/lxterminal.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/lxterminal/lxterminal.conf) |
+
+
+## qterminal
+
+| Config File Path |
+| ---------------- |
+| [~/.config/qterminal.org/qterminal.ini](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/qterminal.org/qterminal.ini) |
 
 
 ## Tool / File Manager
