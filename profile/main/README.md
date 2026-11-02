@@ -314,42 +314,42 @@ or choose the file you want to install.
 | [~/.config/xfce4/terminal/accels.scm](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/xfce4/terminal/accels.scm) |
 
 
-## lxterminal
+### lxterminal
 
 | Config File Path |
 | ---------------- |
 | [~/.config/lxterminal/lxterminal.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/lxterminal/lxterminal.conf) |
 
 
-## qterminal
+### qterminal
 
 | Config File Path |
 | ---------------- |
 | [~/.config/qterminal.org/qterminal.ini](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/qterminal.org/qterminal.ini) |
 
 
-## gnome-console
+### gnome-console
 
 | Config File Path |
 | ---------------- |
 | [/usr/share/glib-2.0/schemas/60_gnome-console.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/60_gnome-console.gschema.override) |
 
 
-## gnome-ptyxis
+### gnome-ptyxis
 
 | Config File Path |
 | ---------------- |
 | [/etc/dconf/db/distro.d/60_gnome-ptyxis.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/dconf/db/distro.d/60_gnome-ptyxis.conf) |
 
 
-## gnome-terminal
+### gnome-terminal
 
 | Config File Path |
 | ---------------- |
 | [/etc/dconf/db/distro.d/60_gnome-terminal.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/dconf/db/distro.d/60_gnome-terminal.conf) |
 
 
-## mate-terminal
+### mate-terminal
 
 | Config File Path |
 | ---------------- |
