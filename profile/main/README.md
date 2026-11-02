@@ -413,7 +413,14 @@ or choose the file you want to install.
 
 ## Tool / Text Editor
 
+* [mousepad](#mousepad)
 
+
+### mousepad
+
+| Config File Path |
+| ---------------- |
+| [/usr/share/glib-2.0/schemas/60_mousepad.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/60_mousepad.gschema.override) |
 
 
 ## Tool / Image Viewer
