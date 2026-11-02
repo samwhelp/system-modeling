@@ -24,6 +24,22 @@ sudo cp -rfT overlay /
 or choose the file you want to install.
 
 
+then
+
+* run for [/usr/share/glib-2.0/schemas](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/usr/share/glib-2.0/schemas)
+
+``` sh
+sudo glib-compile-schemas /usr/share/glib-2.0/schemas
+```
+
+
+* run for [/etc/dconf](https://github.com/samwhelp/system-modeling/tree/main/profile/main/overlay/etc/dconf)
+
+``` sh
+sudo dconf update
+```
+
+
 
 
 ## Subject
