@@ -358,6 +358,10 @@ or choose the file you want to install.
 
 ## Tool / File Manager
 
+* [thunar](#thunar)
+* [pcmanfm](#pcmanfm)
+* [pcmanfm-qt](#pcmanfm-qt)
+
 
 ### thunar
 
@@ -366,6 +370,14 @@ or choose the file you want to install.
 | [~/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml) |
 | [~/.config/Thunar/uca.xml](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/Thunar/uca.xml) |
 | [~/.config/Thunar/accels.scm](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/Thunar/accels.scm) |
+
+
+### pcmanfm
+
+| Config File Path |
+| ---------------- |
+| [~/.config/pcmanfm/default/pcmanfm.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/pcmanfm/default/pcmanfm.conf) |
+| [~/.config/libfm/libfm.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/libfm/libfm.conf) |
 
 
 ### pcmanfm-qt
