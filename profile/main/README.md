@@ -361,6 +361,9 @@ or choose the file you want to install.
 * [thunar](#thunar)
 * [pcmanfm](#pcmanfm)
 * [pcmanfm-qt](#pcmanfm-qt)
+* [nautilus](#nautilus)
+* [nemo](#nemo)
+* [caja](#caja)
 
 
 ### thunar
@@ -385,6 +388,27 @@ or choose the file you want to install.
 | Config File Path |
 | ---------------- |
 | [~/.config/pcmanfm-qt/default/settings.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/pcmanfm-qt/default/settings.conf) |
+
+
+### nautilus
+
+| Config File Path |
+| ---------------- |
+| [/usr/share/glib-2.0/schemas/60_nautilus.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/60_nautilus.gschema.override) |
+
+
+### nemo
+
+| Config File Path |
+| ---------------- |
+| [/usr/share/glib-2.0/schemas/60_nemo.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/60_nemo.gschema.override) |
+
+
+### caja
+
+| Config File Path |
+| ---------------- |
+| [/usr/share/glib-2.0/schemas/60_caja.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/60_caja.gschema.override) |
 
 
 ## Tool / Text Editor
