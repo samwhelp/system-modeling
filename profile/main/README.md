@@ -293,6 +293,10 @@ or choose the file you want to install.
 * [xfce4-terminal](#xfce4-terminal)
 * [lxterminal](#lxterminal)
 * [qterminal](#qterminal)
+* [gnome-console](#gnome-console)
+* [gnome-ptyxis](#gnome-ptyxis)
+* [gnome-terminal](#gnome-terminal)
+* [mate-terminal](#mate-terminal)
 
 
 ### sakura
@@ -322,6 +326,34 @@ or choose the file you want to install.
 | Config File Path |
 | ---------------- |
 | [~/.config/qterminal.org/qterminal.ini](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/skel/.config/qterminal.org/qterminal.ini) |
+
+
+## gnome-console
+
+| Config File Path |
+| ---------------- |
+| [/usr/share/glib-2.0/schemas/60_gnome-console.gschema.override](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/usr/share/glib-2.0/schemas/60_gnome-console.gschema.override) |
+
+
+## gnome-ptyxis
+
+| Config File Path |
+| ---------------- |
+| [/etc/dconf/db/distro.d/60_gnome-ptyxis.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/dconf/db/distro.d/60_gnome-ptyxis.conf) |
+
+
+## gnome-terminal
+
+| Config File Path |
+| ---------------- |
+| [/etc/dconf/db/distro.d/60_gnome-terminal.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/dconf/db/distro.d/60_gnome-terminal.conf) |
+
+
+## mate-terminal
+
+| Config File Path |
+| ---------------- |
+| [/etc/dconf/db/distro.d/60_mate-terminal.conf](https://github.com/samwhelp/system-modeling/blob/main/profile/main/overlay/etc/dconf/db/distro.d/60_mate-terminal.conf) |
 
 
 ## Tool / File Manager
